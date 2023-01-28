@@ -1,11 +1,12 @@
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
+import { Container } from '@mui/material';
+import { ProductsPage } from './pages/ProductsPage';
 
 function App() {
   return (
-    <Button variant="contained" endIcon={<SendIcon />}>
-      Send
-    </Button>
+    <Container fixed>
+      <ProductsPage />
+    </Container>
+
   );
 }
 
