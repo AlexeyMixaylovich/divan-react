@@ -1,4 +1,4 @@
-import { IProduct } from '../models/product';
+import { IProduct } from '../models';
 
 export const products: IProduct[] = [
   {
@@ -8,7 +8,7 @@ export const products: IProduct[] = [
     atr: '2001318233',
     price: 21790,
     oldPrice: 30990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Белисса Velvet Emerald',
@@ -17,7 +17,7 @@ export const products: IProduct[] = [
     atr: '2001236460',
     price: 25190,
     oldPrice: 44990,
-    date: '2022-08-09T09:50:03.946Z',
+    date: new Date('2022-08-09T09:50:03.946Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Light',
@@ -26,7 +26,7 @@ export const products: IProduct[] = [
     atr: '2001295490',
     price: 31990,
     oldPrice: 34990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Mint',
@@ -35,7 +35,7 @@ export const products: IProduct[] = [
     atr: '2001329522',
     price: 19190,
     oldPrice: 34990,
-    date: '2022-08-09T09:50:03.946Z',
+    date: new Date('2022-08-09T09:50:03.946Z'),
   },
   {
     name: 'Диван Бриес',
@@ -44,7 +44,7 @@ export const products: IProduct[] = [
     atr: 'ek000000211',
     price: 32190,
     oldPrice: 53990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Виена',
@@ -53,7 +53,7 @@ export const products: IProduct[] = [
     atr: '2001330188',
     price: 25990,
     oldPrice: 53990,
-    date: '2022-08-09T09:50:03.946Z',
+    date: new Date('2022-08-09T09:50:03.946Z'),
   },
   {
     name: 'Диван Дара',
@@ -62,7 +62,7 @@ export const products: IProduct[] = [
     atr: 'kz000001669',
     price: 32990,
     oldPrice: 40990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Corall',
@@ -71,7 +71,7 @@ export const products: IProduct[] = [
     atr: '2001325001',
     price: 37990,
     oldPrice: 39990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Кайли',
@@ -80,7 +80,7 @@ export const products: IProduct[] = [
     atr: '2001310383',
     price: 42990,
     oldPrice: 73990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Кускен',
@@ -89,7 +89,7 @@ export const products: IProduct[] = [
     atr: '2001345576',
     price: 32990,
     oldPrice: 43990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Лиент Velvet Yellow',
@@ -98,7 +98,7 @@ export const products: IProduct[] = [
     atr: '2001091635',
     price: 32280,
     oldPrice: 64990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Лоелс',
@@ -107,7 +107,7 @@ export const products: IProduct[] = [
     atr: 'ek000000394',
     price: 34990,
     oldPrice: 52990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Льери Velvet Yellow',
@@ -116,7 +116,7 @@ export const products: IProduct[] = [
     atr: 'vl000011460',
     price: 59990,
     oldPrice: 69990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Марси',
@@ -125,7 +125,7 @@ export const products: IProduct[] = [
     atr: '2001311976',
     price: 24270,
     oldPrice: 45990,
-    date: '2022-07-28T12:40:14.464Z',
+    date: new Date('2022-07-28T12:40:14.464Z'),
   },
   {
     name: 'Диван Масио Velvet Ocean',
@@ -134,7 +134,7 @@ export const products: IProduct[] = [
     atr: '2001067853',
     price: 16590,
     oldPrice: 52990,
-    date: '2022-08-09T09:50:03.946Z',
+    date: new Date('2022-08-09T09:50:03.946Z'),
   },
   {
     name: 'Диван Менли',
@@ -143,7 +143,7 @@ export const products: IProduct[] = [
     atr: '2001270663',
     price: 17390,
     oldPrice: 49990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Менли Velvet Latte',
@@ -152,7 +152,7 @@ export const products: IProduct[] = [
     atr: '2001333445',
     price: 32990,
     oldPrice: 39990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Напа Velvet Corall',
@@ -161,7 +161,7 @@ export const products: IProduct[] = [
     atr: '2001021686',
     price: 50990,
     oldPrice: 54990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Напа Velvet Ocean',
@@ -170,7 +170,7 @@ export const products: IProduct[] = [
     atr: '2001328623',
     price: 19790,
     oldPrice: 59990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ольен',
@@ -179,7 +179,7 @@ export const products: IProduct[] = [
     atr: '2001212455',
     price: 62990,
     oldPrice: 70990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ольен',
@@ -188,7 +188,7 @@ export const products: IProduct[] = [
     atr: '2001234069',
     price: 44990,
     oldPrice: 63990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Орнен',
@@ -197,7 +197,7 @@ export const products: IProduct[] = [
     atr: '2001332708',
     price: 54990,
     oldPrice: 65990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Орнен Barhat Beige',
@@ -206,7 +206,7 @@ export const products: IProduct[] = [
     atr: '2001316112',
     price: 22790,
     oldPrice: 59990,
-    date: '2022-08-02T10:35:04.072Z',
+    date: new Date('2022-08-02T10:35:04.072Z'),
   },
   {
     name: 'Диван Орнен Time Emerald',
@@ -215,7 +215,7 @@ export const products: IProduct[] = [
     atr: 'vl000013354',
     price: 54990,
     oldPrice: 69990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Орнен Velvet Blue',
@@ -224,7 +224,7 @@ export const products: IProduct[] = [
     atr: 'vl000013337',
     price: 54990,
     oldPrice: 69990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Орнен Velvet Ocean',
@@ -233,7 +233,7 @@ export const products: IProduct[] = [
     atr: '2001268099',
     price: 54990,
     oldPrice: 69990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Рейли Velvet Mint',
@@ -242,7 +242,7 @@ export const products: IProduct[] = [
     atr: '2001296611',
     price: 15890,
     oldPrice: 32990,
-    date: '2022-08-09T09:50:03.946Z',
+    date: new Date('2022-08-09T09:50:03.946Z'),
   },
   {
     name: 'Диван Ридан',
@@ -251,7 +251,7 @@ export const products: IProduct[] = [
     atr: '2001203903',
     price: 45990,
     oldPrice: 84990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ридан',
@@ -260,7 +260,7 @@ export const products: IProduct[] = [
     atr: '2001322224',
     price: 56990,
     oldPrice: 74990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ридан Infinity Blue',
@@ -269,7 +269,7 @@ export const products: IProduct[] = [
     atr: '2001044396',
     price: 24690,
     oldPrice: 99990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ридан Infinity Blue',
@@ -278,7 +278,7 @@ export const products: IProduct[] = [
     atr: '2001305966',
     price: 31990,
     oldPrice: 99990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Сайле',
@@ -287,7 +287,7 @@ export const products: IProduct[] = [
     atr: '2001297625',
     price: 49990,
     oldPrice: 83990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Сайле Barhat Grey',
@@ -296,7 +296,7 @@ export const products: IProduct[] = [
     atr: '2001072421',
     price: 38360,
     oldPrice: 74990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ситено Мини Velvet Beige',
@@ -305,7 +305,7 @@ export const products: IProduct[] = [
     atr: '2001304640',
     price: 27990,
     oldPrice: 49990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Ситено Мини Velvet Coral',
@@ -314,7 +314,7 @@ export const products: IProduct[] = [
     atr: '2001069556',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -323,7 +323,7 @@ export const products: IProduct[] = [
     atr: '2001253878',
     price: 39990,
     oldPrice: 57990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Слипсон Grafit',
@@ -332,7 +332,7 @@ export const products: IProduct[] = [
     atr: '2001347475',
     price: 39990,
     oldPrice: 49491,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -341,7 +341,7 @@ export const products: IProduct[] = [
     atr: '2001343603',
     price: 37990,
     oldPrice: 54990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Спейс Gene Grey',
@@ -350,7 +350,7 @@ export const products: IProduct[] = [
     atr: '2001333276',
     price: 47990,
     oldPrice: 59990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Торонто Velvet Brown',
@@ -359,7 +359,7 @@ export const products: IProduct[] = [
     atr: '2001236545',
     price: 14990,
     oldPrice: 39990,
-    date: '2022-08-02T10:35:04.072Z',
+    date: new Date('2022-08-02T10:35:04.072Z'),
   },
   {
     name: 'Диван Честер-2 Barhat Salmon',
@@ -368,7 +368,7 @@ export const products: IProduct[] = [
     atr: '2001241182',
     price: 49990,
     oldPrice: 69990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Честер-2 Velvet Latte',
@@ -377,7 +377,7 @@ export const products: IProduct[] = [
     atr: '2001146046',
     price: 34990,
     oldPrice: 54990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Честер-3 Velvet Blue',
@@ -386,7 +386,7 @@ export const products: IProduct[] = [
     atr: 'ek000002453',
     price: 49990,
     oldPrice: 54990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Шилдс',
@@ -395,7 +395,7 @@ export const products: IProduct[] = [
     atr: 'sp000067831',
     price: 44990,
     oldPrice: 73990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Шилдс',
@@ -404,7 +404,7 @@ export const products: IProduct[] = [
     atr: '2001177424',
     price: 26590,
     oldPrice: 54990,
-    date: '2022-08-02T10:35:04.072Z',
+    date: new Date('2022-08-02T10:35:04.072Z'),
   },
   {
     name: 'Диван Эби',
@@ -413,7 +413,7 @@ export const products: IProduct[] = [
     atr: '2001336023',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-07-28T12:40:14.465Z',
+    date: new Date('2022-07-28T12:40:14.465Z'),
   },
   {
     name: 'Диван Эби',
@@ -422,7 +422,7 @@ export const products: IProduct[] = [
     atr: '2001233698',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-07-28T12:45:12.557Z',
+    date: new Date('2022-07-28T12:45:12.557Z'),
   },
   {
     name: 'Диван Шилдс',
@@ -431,7 +431,7 @@ export const products: IProduct[] = [
     atr: '2001306075',
     price: 44990,
     oldPrice: 65990,
-    date: '2022-07-28T13:00:14.785Z',
+    date: new Date('2022-07-28T13:00:14.785Z'),
   },
   {
     name: 'Диван Дисент',
@@ -440,7 +440,7 @@ export const products: IProduct[] = [
     atr: '2001304014',
     price: 49990,
     oldPrice: 74990,
-    date: '2022-07-28T13:30:12.290Z',
+    date: new Date('2022-07-28T13:30:12.290Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -449,7 +449,7 @@ export const products: IProduct[] = [
     atr: '2001343605',
     price: 37990,
     oldPrice: 54990,
-    date: '2022-07-28T13:30:12.291Z',
+    date: new Date('2022-07-28T13:30:12.291Z'),
   },
   {
     name: 'Диван Ольен',
@@ -458,7 +458,7 @@ export const products: IProduct[] = [
     atr: 'ek000003667',
     price: 44990,
     oldPrice: 59990,
-    date: '2022-07-28T13:40:09.162Z',
+    date: new Date('2022-07-28T13:40:09.162Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -467,7 +467,7 @@ export const products: IProduct[] = [
     atr: '2001343604',
     price: 37990,
     oldPrice: 54990,
-    date: '2022-07-28T17:00:13.835Z',
+    date: new Date('2022-07-28T17:00:13.835Z'),
   },
   {
     name: 'Диван Лоелс Happy Grafit',
@@ -476,7 +476,7 @@ export const products: IProduct[] = [
     atr: '2001337865',
     price: 32990,
     oldPrice: 49990,
-    date: '2022-07-28T18:50:04.757Z',
+    date: new Date('2022-07-28T18:50:04.757Z'),
   },
   {
     name: 'Диван Ольен Мини',
@@ -485,7 +485,7 @@ export const products: IProduct[] = [
     atr: '2001356499',
     price: 34990,
     oldPrice: 48990,
-    date: '2022-07-29T07:20:04.763Z',
+    date: new Date('2022-07-29T07:20:04.763Z'),
   },
   {
     name: 'Диван Льери Time Emerald',
@@ -494,7 +494,7 @@ export const products: IProduct[] = [
     atr: '2001219033',
     price: 21990,
     oldPrice: 69990,
-    date: '2022-08-16T10:10:05.102Z',
+    date: new Date('2022-08-16T10:10:05.102Z'),
   },
   {
     name: 'Диван Менли Velvet Latte',
@@ -503,7 +503,7 @@ export const products: IProduct[] = [
     atr: '2001333444',
     price: 32990,
     oldPrice: 39990,
-    date: '2022-07-29T14:15:04.167Z',
+    date: new Date('2022-07-29T14:15:04.167Z'),
   },
   {
     name: 'Диван Хоуп',
@@ -512,7 +512,7 @@ export const products: IProduct[] = [
     atr: '2001340315',
     price: 15290,
     oldPrice: 29990,
-    date: '2022-07-29T14:15:04.169Z',
+    date: new Date('2022-07-29T14:15:04.169Z'),
   },
   {
     name: 'Диван Менли Velvet Latte',
@@ -521,7 +521,7 @@ export const products: IProduct[] = [
     atr: '2001351673',
     price: 32990,
     oldPrice: 39990,
-    date: '2022-07-29T17:50:04.264Z',
+    date: new Date('2022-07-29T17:50:04.264Z'),
   },
   {
     name: 'Диван Стаус',
@@ -530,7 +530,7 @@ export const products: IProduct[] = [
     atr: '2001343600',
     price: 26990,
     oldPrice: 34990,
-    date: '2022-07-29T17:50:04.265Z',
+    date: new Date('2022-07-29T17:50:04.265Z'),
   },
   {
     name: 'Диван Хоуп',
@@ -539,7 +539,7 @@ export const products: IProduct[] = [
     atr: '2001340316',
     price: 15290,
     oldPrice: 29990,
-    date: '2022-07-29T17:50:04.265Z',
+    date: new Date('2022-07-29T17:50:04.265Z'),
   },
   {
     name: 'Диван Хоуп',
@@ -548,7 +548,7 @@ export const products: IProduct[] = [
     atr: '2001340318',
     price: 15290,
     oldPrice: 29990,
-    date: '2022-07-30T06:05:02.095Z',
+    date: new Date('2022-07-30T06:05:02.095Z'),
   },
   {
     name: 'Диван Хоуп',
@@ -557,7 +557,7 @@ export const products: IProduct[] = [
     atr: '2001340313',
     price: 15290,
     oldPrice: 29990,
-    date: '2022-07-30T08:25:05.235Z',
+    date: new Date('2022-07-30T08:25:05.235Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -566,7 +566,7 @@ export const products: IProduct[] = [
     atr: '2001191279',
     price: 18890,
     oldPrice: 57990,
-    date: '2022-08-16T10:10:05.102Z',
+    date: new Date('2022-08-16T10:10:05.102Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Ocean',
@@ -575,7 +575,7 @@ export const products: IProduct[] = [
     atr: 'ek000002509',
     price: 22990,
     oldPrice: 32990,
-    date: '2022-08-03T06:20:03.819Z',
+    date: new Date('2022-08-03T06:20:03.819Z'),
   },
   {
     name: 'Диван Марси',
@@ -584,7 +584,7 @@ export const products: IProduct[] = [
     atr: 'vl000014394',
     price: 34990,
     oldPrice: 45990,
-    date: '2022-08-03T11:15:04.349Z',
+    date: new Date('2022-08-03T11:15:04.349Z'),
   },
   {
     name: 'Диван Слипсон Grafit',
@@ -593,7 +593,7 @@ export const products: IProduct[] = [
     atr: '2001228022',
     price: 29000,
     oldPrice: 49990,
-    date: '2022-08-03T18:20:04.557Z',
+    date: new Date('2022-08-03T18:20:04.557Z'),
   },
   {
     name: 'Диван Анта Barhat Blue',
@@ -602,7 +602,7 @@ export const products: IProduct[] = [
     atr: '2001306822',
     price: 24990,
     oldPrice: 30990,
-    date: '2022-08-04T11:15:07.801Z',
+    date: new Date('2022-08-04T11:15:07.801Z'),
   },
   {
     name: 'Диван Лекстон Velvet Latte',
@@ -611,7 +611,7 @@ export const products: IProduct[] = [
     atr: 'kz000001784',
     price: 24990,
     oldPrice: 34990,
-    date: '2022-08-04T11:15:07.801Z',
+    date: new Date('2022-08-04T11:15:07.801Z'),
   },
   {
     name: 'Диван Орнен Velvet Mustard',
@@ -620,7 +620,7 @@ export const products: IProduct[] = [
     atr: 'vl000009465',
     price: 49990,
     oldPrice: 64990,
-    date: '2022-08-04T11:15:07.801Z',
+    date: new Date('2022-08-04T11:15:07.801Z'),
   },
   {
     name: 'Диван Поли Velvet Grafit',
@@ -629,7 +629,7 @@ export const products: IProduct[] = [
     atr: '2001243115',
     price: 24990,
     oldPrice: 29990,
-    date: '2022-08-04T11:15:07.801Z',
+    date: new Date('2022-08-04T11:15:07.801Z'),
   },
   {
     name: 'Диван Слипсон Grafit',
@@ -637,7 +637,7 @@ export const products: IProduct[] = [
     atr: 'vl000009903',
     price: 39990,
     oldPrice: 0,
-    date: '2022-08-04T11:15:07.801Z',
+    date: new Date('2022-08-04T11:15:07.801Z'),
   },
   {
     name: 'Диван Анта Barhat Blue',
@@ -646,7 +646,7 @@ export const products: IProduct[] = [
     atr: '2001318232',
     price: 24990,
     oldPrice: 30990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -655,7 +655,7 @@ export const products: IProduct[] = [
     atr: '2001326271',
     price: 23240,
     oldPrice: 44990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Ситено Velvet Ocean',
@@ -664,7 +664,7 @@ export const products: IProduct[] = [
     atr: '2000964742',
     price: 21980,
     oldPrice: 44990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Хоуп Velvet Navy Blue',
@@ -673,7 +673,7 @@ export const products: IProduct[] = [
     atr: '2001333977',
     price: 11450,
     oldPrice: 22990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Шарп Velvet Blue',
@@ -682,7 +682,7 @@ export const products: IProduct[] = [
     atr: '2001322107',
     price: 30450,
     oldPrice: 52990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Эби Gene Grey',
@@ -691,7 +691,7 @@ export const products: IProduct[] = [
     atr: '2001333281',
     price: 40060,
     oldPrice: 59990,
-    date: '2022-08-04T11:25:03.997Z',
+    date: new Date('2022-08-04T11:25:03.997Z'),
   },
   {
     name: 'Диван Слипсон Grafit',
@@ -699,7 +699,7 @@ export const products: IProduct[] = [
     atr: '2001352364',
     price: 39990,
     oldPrice: 0,
-    date: '2022-08-04T11:30:05.681Z',
+    date: new Date('2022-08-04T11:30:05.681Z'),
   },
   {
     name: 'Диван Льери Velvet Grey',
@@ -708,7 +708,7 @@ export const products: IProduct[] = [
     atr: 'kz000001412',
     price: 29440,
     oldPrice: 69990,
-    date: '2022-08-04T13:40:04.030Z',
+    date: new Date('2022-08-04T13:40:04.030Z'),
   },
   {
     name: 'Диван Марси',
@@ -717,7 +717,7 @@ export const products: IProduct[] = [
     atr: '2001336112',
     price: 34990,
     oldPrice: 45990,
-    date: '2022-08-04T11:45:02.426Z',
+    date: new Date('2022-08-04T11:45:02.426Z'),
   },
   {
     name: 'Диван Ольен Мини',
@@ -726,7 +726,7 @@ export const products: IProduct[] = [
     atr: '2001348721',
     price: 34990,
     oldPrice: 48990,
-    date: '2022-08-04T11:45:02.426Z',
+    date: new Date('2022-08-04T11:45:02.426Z'),
   },
   {
     name: 'Диван Ридан Velvet Yellow',
@@ -735,7 +735,7 @@ export const products: IProduct[] = [
     atr: 'vl000010777',
     price: 33600,
     oldPrice: 69990,
-    date: '2022-08-04T13:40:04.031Z',
+    date: new Date('2022-08-04T13:40:04.031Z'),
   },
   {
     name: 'Диван Шилдс',
@@ -744,7 +744,7 @@ export const products: IProduct[] = [
     atr: 'vl000011480',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-08-04T11:45:02.426Z',
+    date: new Date('2022-08-04T11:45:02.426Z'),
   },
   {
     name: 'Диван Анта',
@@ -753,7 +753,7 @@ export const products: IProduct[] = [
     atr: '2001249637',
     price: 24990,
     oldPrice: 32990,
-    date: '2022-08-04T12:05:04.320Z',
+    date: new Date('2022-08-04T12:05:04.320Z'),
   },
   {
     name: 'Диван Хевит',
@@ -762,7 +762,7 @@ export const products: IProduct[] = [
     atr: '2001217520',
     price: 21990,
     oldPrice: 37990,
-    date: '2022-08-04T12:05:04.320Z',
+    date: new Date('2022-08-04T12:05:04.320Z'),
   },
   {
     name: 'Диван Бонс-Т',
@@ -771,7 +771,7 @@ export const products: IProduct[] = [
     atr: '2001289296',
     price: 29990,
     oldPrice: 43990,
-    date: '2022-08-04T13:20:03.883Z',
+    date: new Date('2022-08-04T13:20:03.883Z'),
   },
   {
     name: 'Диван Динс',
@@ -780,7 +780,7 @@ export const products: IProduct[] = [
     atr: '2001349492',
     price: 37990,
     oldPrice: 47990,
-    date: '2022-08-04T13:30:06.122Z',
+    date: new Date('2022-08-04T13:30:06.122Z'),
   },
   {
     name: 'Диван Милкен',
@@ -789,7 +789,7 @@ export const products: IProduct[] = [
     atr: '2001314441',
     price: 29990,
     oldPrice: 38990,
-    date: '2022-08-04T13:30:06.122Z',
+    date: new Date('2022-08-04T13:30:06.122Z'),
   },
   {
     name: 'Диван Дисент',
@@ -798,7 +798,7 @@ export const products: IProduct[] = [
     atr: '2001351371',
     price: 49990,
     oldPrice: 74990,
-    date: '2022-08-04T13:40:04.030Z',
+    date: new Date('2022-08-04T13:40:04.030Z'),
   },
   {
     name: 'Диван Милкен Velvet Yellow',
@@ -807,7 +807,7 @@ export const products: IProduct[] = [
     atr: '2001345574',
     price: 17620,
     oldPrice: 32990,
-    date: '2022-08-04T13:40:04.030Z',
+    date: new Date('2022-08-04T13:40:04.030Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Latte',
@@ -816,7 +816,7 @@ export const products: IProduct[] = [
     atr: '2001311910',
     price: 14990,
     oldPrice: 26990,
-    date: '2022-08-04T13:40:04.031Z',
+    date: new Date('2022-08-04T13:40:04.031Z'),
   },
   {
     name: 'Диван Саннес Textile Silver',
@@ -825,7 +825,7 @@ export const products: IProduct[] = [
     atr: '2001309686',
     price: 21210,
     oldPrice: 36990,
-    date: '2022-08-04T13:40:04.031Z',
+    date: new Date('2022-08-04T13:40:04.031Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -834,7 +834,7 @@ export const products: IProduct[] = [
     atr: '2001338124',
     price: 29810,
     oldPrice: 54990,
-    date: '2022-08-04T13:40:04.031Z',
+    date: new Date('2022-08-04T13:40:04.031Z'),
   },
   {
     name: 'Диван Бонс-Т',
@@ -843,7 +843,7 @@ export const products: IProduct[] = [
     atr: '2001257227',
     price: 29990,
     oldPrice: 43990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Emerald',
@@ -852,7 +852,7 @@ export const products: IProduct[] = [
     atr: '2001335960',
     price: 18710,
     oldPrice: 34990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Mint',
@@ -861,7 +861,7 @@ export const products: IProduct[] = [
     atr: 'ek000001449',
     price: 21770,
     oldPrice: 34990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Yellow',
@@ -870,7 +870,7 @@ export const products: IProduct[] = [
     atr: '2001359961',
     price: 21770,
     oldPrice: 34990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Брент Velvet Atlantic',
@@ -879,7 +879,7 @@ export const products: IProduct[] = [
     atr: '2001338387',
     price: 29440,
     oldPrice: 52990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Виена Velvet Beige',
@@ -888,7 +888,7 @@ export const products: IProduct[] = [
     atr: '2001271151',
     price: 28070,
     oldPrice: 44990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Динс Velvet Navy Blue',
@@ -897,7 +897,7 @@ export const products: IProduct[] = [
     atr: '2001274492',
     price: 24250,
     oldPrice: 39990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Corall',
@@ -906,7 +906,7 @@ export const products: IProduct[] = [
     atr: '2001278825',
     price: 22450,
     oldPrice: 39990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Yellow',
@@ -915,7 +915,7 @@ export const products: IProduct[] = [
     atr: '2001315372',
     price: 22190,
     oldPrice: 39990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Льери Velvet Yellow',
@@ -924,7 +924,7 @@ export const products: IProduct[] = [
     atr: '2000964738',
     price: 29440,
     oldPrice: 69990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Льери Мини Velvet Emerald',
@@ -933,7 +933,7 @@ export const products: IProduct[] = [
     atr: '2001332285',
     price: 21430,
     oldPrice: 44990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Льери Мини Velvet Yellow',
@@ -942,7 +942,7 @@ export const products: IProduct[] = [
     atr: '2001313456',
     price: 26190,
     oldPrice: 44990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Маркфул Velvet Coral',
@@ -951,7 +951,7 @@ export const products: IProduct[] = [
     atr: '2001143746',
     price: 30610,
     oldPrice: 54990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Марси Textile Grey',
@@ -960,7 +960,7 @@ export const products: IProduct[] = [
     atr: '2001239706',
     price: 25150,
     oldPrice: 44990,
-    date: '2022-08-04T13:45:04.427Z',
+    date: new Date('2022-08-04T13:45:04.427Z'),
   },
   {
     name: 'Диван Масио Velvet Emerald',
@@ -969,7 +969,7 @@ export const products: IProduct[] = [
     atr: '2001092093',
     price: 16590,
     oldPrice: 52990,
-    date: '2022-08-24T11:10:05.213Z',
+    date: new Date('2022-08-24T11:10:05.213Z'),
   },
   {
     name: 'Диван Ольен',
@@ -978,7 +978,7 @@ export const products: IProduct[] = [
     atr: '2001352886',
     price: 44990,
     oldPrice: 59990,
-    date: '2022-08-04T13:50:04.437Z',
+    date: new Date('2022-08-04T13:50:04.437Z'),
   },
   {
     name: 'Диван Орнен Velvet Mustard',
@@ -987,7 +987,7 @@ export const products: IProduct[] = [
     atr: 'vl000007710',
     price: 49990,
     oldPrice: 64990,
-    date: '2022-08-04T14:00:01.703Z',
+    date: new Date('2022-08-04T14:00:01.703Z'),
   },
   {
     name: 'Диван Эрвика Velvet Yellow',
@@ -996,7 +996,7 @@ export const products: IProduct[] = [
     atr: '2001309703',
     price: 22940,
     oldPrice: 36990,
-    date: '2022-08-04T14:35:04.811Z',
+    date: new Date('2022-08-04T14:35:04.811Z'),
   },
   {
     name: 'Диван Мисл',
@@ -1005,7 +1005,7 @@ export const products: IProduct[] = [
     atr: '2001301725',
     price: 29960,
     oldPrice: 64990,
-    date: '2022-08-04T14:55:04.858Z',
+    date: new Date('2022-08-04T14:55:04.858Z'),
   },
   {
     name: 'Диван Белисса Velvet Blue',
@@ -1014,7 +1014,7 @@ export const products: IProduct[] = [
     atr: '2001027142',
     price: 13090,
     oldPrice: 44990,
-    date: '2022-11-10T09:30:10.807Z',
+    date: new Date('2022-11-10T09:30:10.807Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -1023,7 +1023,7 @@ export const products: IProduct[] = [
     atr: 'kz000002300',
     price: 37990,
     oldPrice: 49990,
-    date: '2022-08-05T08:20:04.795Z',
+    date: new Date('2022-08-05T08:20:04.795Z'),
   },
   {
     name: 'Диван Динс',
@@ -1032,7 +1032,7 @@ export const products: IProduct[] = [
     atr: 'vl000016461',
     price: 37990,
     oldPrice: 47990,
-    date: '2022-08-05T08:30:04.406Z',
+    date: new Date('2022-08-05T08:30:04.406Z'),
   },
   {
     name: 'Диван Ситено',
@@ -1041,7 +1041,7 @@ export const products: IProduct[] = [
     atr: '2001362765',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-08-05T08:30:04.406Z',
+    date: new Date('2022-08-05T08:30:04.406Z'),
   },
   {
     name: 'Диван Ольен Мини',
@@ -1050,7 +1050,7 @@ export const products: IProduct[] = [
     atr: '2001348720',
     price: 34990,
     oldPrice: 48990,
-    date: '2022-08-05T10:10:02.407Z',
+    date: new Date('2022-08-05T10:10:02.407Z'),
   },
   {
     name: 'Диван Спейс',
@@ -1059,7 +1059,7 @@ export const products: IProduct[] = [
     atr: 'vl000013970',
     price: 49990,
     oldPrice: 64990,
-    date: '2022-08-05T10:55:03.931Z',
+    date: new Date('2022-08-05T10:55:03.931Z'),
   },
   {
     name: 'Диван Спейс',
@@ -1068,7 +1068,7 @@ export const products: IProduct[] = [
     atr: 'vl000014416',
     price: 49990,
     oldPrice: 64990,
-    date: '2022-08-05T12:15:06.619Z',
+    date: new Date('2022-08-05T12:15:06.619Z'),
   },
   {
     name: 'Диван Линс Velvet Grafit',
@@ -1077,7 +1077,7 @@ export const products: IProduct[] = [
     atr: '2001269259',
     price: 16490,
     oldPrice: 25990,
-    date: '2022-08-08T07:05:04.786Z',
+    date: new Date('2022-08-08T07:05:04.786Z'),
   },
   {
     name: 'Диван Белисса Velvet Beige',
@@ -1086,7 +1086,7 @@ export const products: IProduct[] = [
     atr: '2001151984',
     price: 21990,
     oldPrice: 46990,
-    date: '2022-08-08T11:55:03.868Z',
+    date: new Date('2022-08-08T11:55:03.868Z'),
   },
   {
     name: 'Диван Менли Velvet Latte',
@@ -1095,7 +1095,7 @@ export const products: IProduct[] = [
     atr: '2001321113',
     price: 25500,
     oldPrice: 39990,
-    date: '2022-08-08T11:55:03.868Z',
+    date: new Date('2022-08-08T11:55:03.868Z'),
   },
   {
     name: 'Диван Спейс Gene Grey',
@@ -1104,7 +1104,7 @@ export const products: IProduct[] = [
     atr: '2001333274',
     price: 47990,
     oldPrice: 59990,
-    date: '2022-08-08T12:00:05.875Z',
+    date: new Date('2022-08-08T12:00:05.875Z'),
   },
   {
     name: 'Диван Ситено Мини Barhat Grey',
@@ -1113,7 +1113,7 @@ export const products: IProduct[] = [
     atr: '2001224837',
     price: 30190,
     oldPrice: 54990,
-    date: '2022-08-09T09:20:04.875Z',
+    date: new Date('2022-08-09T09:20:04.875Z'),
   },
   {
     name: 'Диван Ситено',
@@ -1122,7 +1122,7 @@ export const products: IProduct[] = [
     atr: '2001352958',
     price: 42990,
     oldPrice: 53990,
-    date: '2022-08-09T11:20:04.295Z',
+    date: new Date('2022-08-09T11:20:04.295Z'),
   },
   {
     name: 'Диван Кайрон Velvet Emerald',
@@ -1131,7 +1131,7 @@ export const products: IProduct[] = [
     atr: '2001234407',
     price: 19790,
     oldPrice: 59990,
-    date: '2022-08-11T09:20:03.791Z',
+    date: new Date('2022-08-11T09:20:03.791Z'),
   },
   {
     name: 'Диван Спейс Gene Grey',
@@ -1140,7 +1140,7 @@ export const products: IProduct[] = [
     atr: '2001299433',
     price: 49990,
     oldPrice: 59990,
-    date: '2022-08-11T11:30:06.247Z',
+    date: new Date('2022-08-11T11:30:06.247Z'),
   },
   {
     name: 'Диван Динен Velvet Emerald',
@@ -1149,7 +1149,7 @@ export const products: IProduct[] = [
     atr: '2001366148',
     price: 27990,
     oldPrice: 32990,
-    date: '2022-08-11T11:35:04.183Z',
+    date: new Date('2022-08-11T11:35:04.183Z'),
   },
   {
     name: 'Диван Ольен Happy Grafit',
@@ -1158,7 +1158,7 @@ export const products: IProduct[] = [
     atr: '2001235005',
     price: 21490,
     oldPrice: 49990,
-    date: '2022-08-11T12:15:05.340Z',
+    date: new Date('2022-08-11T12:15:05.340Z'),
   },
   {
     name: 'Диван Бонс-Т Gene Grey',
@@ -1167,7 +1167,7 @@ export const products: IProduct[] = [
     atr: '2001343924',
     price: 19180,
     oldPrice: 39990,
-    date: '2022-08-11T12:30:01.757Z',
+    date: new Date('2022-08-11T12:30:01.757Z'),
   },
   {
     name: 'Диван Гритон Velvet Light',
@@ -1176,7 +1176,7 @@ export const products: IProduct[] = [
     atr: '2000616050',
     price: 22620,
     oldPrice: 40990,
-    date: '2022-08-11T12:30:01.757Z',
+    date: new Date('2022-08-11T12:30:01.757Z'),
   },
   {
     name: 'Диван Вернон 160 Velvet Light',
@@ -1185,7 +1185,7 @@ export const products: IProduct[] = [
     atr: '2001338404',
     price: 29440,
     oldPrice: 52990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Динен Velvet Beige',
@@ -1194,7 +1194,7 @@ export const products: IProduct[] = [
     atr: 'vl000011482',
     price: 18120,
     oldPrice: 39990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Кареро Velvet Light',
@@ -1203,7 +1203,7 @@ export const products: IProduct[] = [
     atr: '2001329443',
     price: 29310,
     oldPrice: 54990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Кускен Velvet Yellow',
@@ -1212,7 +1212,7 @@ export const products: IProduct[] = [
     atr: '2001300240',
     price: 22510,
     oldPrice: 34990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Лиент Velvet Ocean',
@@ -1221,7 +1221,7 @@ export const products: IProduct[] = [
     atr: '2001091857',
     price: 32280,
     oldPrice: 62990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Льери Barhat Blue',
@@ -1230,7 +1230,7 @@ export const products: IProduct[] = [
     atr: '2001039152',
     price: 31970,
     oldPrice: 69990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Льери Мини Velvet Atlantic',
@@ -1239,7 +1239,7 @@ export const products: IProduct[] = [
     atr: '2001345251',
     price: 21430,
     oldPrice: 49990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Милкен Velvet Grafit',
@@ -1248,7 +1248,7 @@ export const products: IProduct[] = [
     atr: '2001327153',
     price: 17620,
     oldPrice: 32990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Ридан Velvet Ocean',
@@ -1257,7 +1257,7 @@ export const products: IProduct[] = [
     atr: '2001050896',
     price: 27910,
     oldPrice: 69990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Grey',
@@ -1266,7 +1266,7 @@ export const products: IProduct[] = [
     atr: '2001366178',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Ocean',
@@ -1275,7 +1275,7 @@ export const products: IProduct[] = [
     atr: '2001352245',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Спейс Happy Light',
@@ -1284,7 +1284,7 @@ export const products: IProduct[] = [
     atr: '2001274735',
     price: 49990,
     oldPrice: 59990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Хоуп',
@@ -1293,7 +1293,7 @@ export const products: IProduct[] = [
     atr: '2001359532',
     price: 19990,
     oldPrice: 29990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Честер-2 Velvet Blue',
@@ -1302,7 +1302,7 @@ export const products: IProduct[] = [
     atr: '2001362154',
     price: 34990,
     oldPrice: 44990,
-    date: '2022-08-11T13:55:04.641Z',
+    date: new Date('2022-08-11T13:55:04.641Z'),
   },
   {
     name: 'Диван Честер-2 Velvet Blue',
@@ -1311,7 +1311,7 @@ export const products: IProduct[] = [
     atr: '2001330166',
     price: 23997,
     oldPrice: 79990,
-    date: '2022-11-14T00:48:08.892Z',
+    date: new Date('2022-11-14T00:48:08.892Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -1320,7 +1320,7 @@ export const products: IProduct[] = [
     atr: '2001345129',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-08-11T17:50:04.739Z',
+    date: new Date('2022-08-11T17:50:04.739Z'),
   },
   {
     name: 'Диван Брент Velvet Terra',
@@ -1329,7 +1329,7 @@ export const products: IProduct[] = [
     atr: '2001230822',
     price: 36790,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Вероли Velvet Light',
@@ -1338,7 +1338,7 @@ export const products: IProduct[] = [
     atr: '2001208355',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Corall',
@@ -1347,7 +1347,7 @@ export const products: IProduct[] = [
     atr: '2001270942',
     price: 37990,
     oldPrice: 39990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Китис Velvet Yellow',
@@ -1356,7 +1356,7 @@ export const products: IProduct[] = [
     atr: '2001188885',
     price: 37490,
     oldPrice: 59990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Масио 160 Velvet Grey',
@@ -1365,7 +1365,7 @@ export const products: IProduct[] = [
     atr: '2001296791',
     price: 38490,
     oldPrice: 59990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Масио 160 Velvet Light Grey',
@@ -1374,7 +1374,7 @@ export const products: IProduct[] = [
     atr: '2001236498',
     price: 35997,
     oldPrice: 119990,
-    date: '2022-11-23T12:00:14.298Z',
+    date: new Date('2022-11-23T12:00:14.298Z'),
   },
   {
     name: 'Диван Масио 160 Velvet Ocean',
@@ -1383,7 +1383,7 @@ export const products: IProduct[] = [
     atr: '2001091220',
     price: 33990,
     oldPrice: 59990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Масио Velvet Coral',
@@ -1392,7 +1392,7 @@ export const products: IProduct[] = [
     atr: '2001134196',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Масио Velvet Emerald',
@@ -1401,7 +1401,7 @@ export const products: IProduct[] = [
     atr: '2001092091',
     price: 28497,
     oldPrice: 94990,
-    date: '2022-11-23T12:55:07.870Z',
+    date: new Date('2022-11-23T12:55:07.870Z'),
   },
   {
     name: 'Диван Масио Velvet Grey',
@@ -1410,7 +1410,7 @@ export const products: IProduct[] = [
     atr: '2001236500',
     price: 35997,
     oldPrice: 119990,
-    date: '2022-11-23T12:40:09.197Z',
+    date: new Date('2022-11-23T12:40:09.197Z'),
   },
   {
     name: 'Диван Масио Velvet Light Grey',
@@ -1419,7 +1419,7 @@ export const products: IProduct[] = [
     atr: '2001091736',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Масио Velvet Plum',
@@ -1428,7 +1428,7 @@ export const products: IProduct[] = [
     atr: '2001091742',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Мосс 160 Happy Grey',
@@ -1437,7 +1437,7 @@ export const products: IProduct[] = [
     atr: '2001236512',
     price: 40790,
     oldPrice: 59990,
-    date: '2022-08-12T07:20:06.193Z',
+    date: new Date('2022-08-12T07:20:06.193Z'),
   },
   {
     name: 'Диван Мосс Happy Pink',
@@ -1446,7 +1446,7 @@ export const products: IProduct[] = [
     atr: '2001253337',
     price: 39090,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано 160 Velvet Latte',
@@ -1455,7 +1455,7 @@ export const products: IProduct[] = [
     atr: '2001137439',
     price: 34490,
     oldPrice: 56990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано Velvet Emerald',
@@ -1464,7 +1464,7 @@ export const products: IProduct[] = [
     atr: '2001244232',
     price: 41390,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано Velvet Emerald',
@@ -1473,7 +1473,7 @@ export const products: IProduct[] = [
     atr: '2001236516',
     price: 39690,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано Velvet Grafit',
@@ -1482,7 +1482,7 @@ export const products: IProduct[] = [
     atr: '2001138831',
     price: 33090,
     oldPrice: 52990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано Velvet Grey',
@@ -1491,7 +1491,7 @@ export const products: IProduct[] = [
     atr: '2001236517',
     price: 39690,
     oldPrice: 49990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Мурано Velvet Latte',
@@ -1500,7 +1500,7 @@ export const products: IProduct[] = [
     atr: '2001092043',
     price: 33090,
     oldPrice: 49990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Остин Velvet Yellow',
@@ -1509,7 +1509,7 @@ export const products: IProduct[] = [
     atr: '2001253362',
     price: 29590,
     oldPrice: 39990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Grey',
@@ -1518,7 +1518,7 @@ export const products: IProduct[] = [
     atr: '2001366179',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Ocean',
@@ -1527,7 +1527,7 @@ export const products: IProduct[] = [
     atr: '2001366174',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Ситено Мини',
@@ -1536,7 +1536,7 @@ export const products: IProduct[] = [
     atr: '2001345025',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Фолс 160 Velvet Mustard',
@@ -1545,7 +1545,7 @@ export const products: IProduct[] = [
     atr: '2001067664',
     price: 33990,
     oldPrice: 56990,
-    date: '2022-08-12T07:20:06.194Z',
+    date: new Date('2022-08-12T07:20:06.194Z'),
   },
   {
     name: 'Диван Масио 160 Velvet Grey',
@@ -1554,7 +1554,7 @@ export const products: IProduct[] = [
     atr: '2001296790',
     price: 38490,
     oldPrice: 59990,
-    date: '2022-08-12T08:10:04.482Z',
+    date: new Date('2022-08-12T08:10:04.482Z'),
   },
   {
     name: 'Диван Мурано 160 Velvet Latte',
@@ -1563,7 +1563,7 @@ export const products: IProduct[] = [
     atr: '2001091215',
     price: 34490,
     oldPrice: 56990,
-    date: '2022-08-12T08:10:04.482Z',
+    date: new Date('2022-08-12T08:10:04.482Z'),
   },
   {
     name: 'Диван Остин Velvet Yellow',
@@ -1572,7 +1572,7 @@ export const products: IProduct[] = [
     atr: '2001253361',
     price: 29590,
     oldPrice: 39990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Фолс 160 Velvet Mustard',
@@ -1581,7 +1581,7 @@ export const products: IProduct[] = [
     atr: '2001091247',
     price: 33990,
     oldPrice: 56990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Фолс Velvet Grey',
@@ -1590,7 +1590,7 @@ export const products: IProduct[] = [
     atr: '2001244264',
     price: 39090,
     oldPrice: 52990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Фолс Velvet Mustard',
@@ -1599,7 +1599,7 @@ export const products: IProduct[] = [
     atr: '2001091746',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Шарп Happy Yellow',
@@ -1608,7 +1608,7 @@ export const products: IProduct[] = [
     atr: '2001256873',
     price: 39090,
     oldPrice: 52990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Шарп Velvet Mint',
@@ -1617,7 +1617,7 @@ export const products: IProduct[] = [
     atr: '2001091907',
     price: 32590,
     oldPrice: 49990,
-    date: '2022-08-12T08:10:04.483Z',
+    date: new Date('2022-08-12T08:10:04.483Z'),
   },
   {
     name: 'Диван Масио Velvet Plum',
@@ -1626,7 +1626,7 @@ export const products: IProduct[] = [
     atr: '2001091743',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T08:30:06.459Z',
+    date: new Date('2022-08-12T08:30:06.459Z'),
   },
   {
     name: 'Диван Ситено',
@@ -1635,7 +1635,7 @@ export const products: IProduct[] = [
     atr: '2001371005',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-08-12T10:20:05.592Z',
+    date: new Date('2022-08-12T10:20:05.592Z'),
   },
   {
     name: 'Диван Фолс 160 Velvet Mustard',
@@ -1644,7 +1644,7 @@ export const products: IProduct[] = [
     atr: '2001091248',
     price: 33990,
     oldPrice: 56990,
-    date: '2022-08-12T10:20:05.592Z',
+    date: new Date('2022-08-12T10:20:05.592Z'),
   },
   {
     name: 'Диван Фолс Velvet Mustard',
@@ -1653,7 +1653,7 @@ export const products: IProduct[] = [
     atr: '2001091750',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T10:20:05.592Z',
+    date: new Date('2022-08-12T10:20:05.592Z'),
   },
   {
     name: 'Диван Шарп Velvet Mint',
@@ -1662,7 +1662,7 @@ export const products: IProduct[] = [
     atr: '2001091909',
     price: 32590,
     oldPrice: 49990,
-    date: '2022-08-12T10:20:05.593Z',
+    date: new Date('2022-08-12T10:20:05.593Z'),
   },
   {
     name: 'Диван Льери',
@@ -1671,7 +1671,7 @@ export const products: IProduct[] = [
     atr: '2001355579',
     price: 59990,
     oldPrice: 74990,
-    date: '2022-08-12T15:55:04.899Z',
+    date: new Date('2022-08-12T15:55:04.899Z'),
   },
   {
     name: 'Диван Мурано Velvet Latte',
@@ -1680,7 +1680,7 @@ export const products: IProduct[] = [
     atr: '2001138643',
     price: 33090,
     oldPrice: 49990,
-    date: '2022-08-12T15:55:04.899Z',
+    date: new Date('2022-08-12T15:55:04.899Z'),
   },
   {
     name: 'Диван Вероли Velvet Plum',
@@ -1689,7 +1689,7 @@ export const products: IProduct[] = [
     atr: '2001188832',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-08-12T18:40:04.501Z',
+    date: new Date('2022-08-12T18:40:04.501Z'),
   },
   {
     name: 'Диван Мурано 160 Velvet Latte',
@@ -1698,7 +1698,7 @@ export const products: IProduct[] = [
     atr: '2001137440',
     price: 34490,
     oldPrice: 56990,
-    date: '2022-08-13T15:20:04.072Z',
+    date: new Date('2022-08-13T15:20:04.072Z'),
   },
   {
     name: 'Диван Мурано 160 Velvet Latte',
@@ -1707,7 +1707,7 @@ export const products: IProduct[] = [
     atr: '2001067647',
     price: 34490,
     oldPrice: 56990,
-    date: '2022-08-13T16:20:05.206Z',
+    date: new Date('2022-08-13T16:20:05.206Z'),
   },
   {
     name: 'Диван Спейс',
@@ -1716,7 +1716,7 @@ export const products: IProduct[] = [
     atr: 'kz000001753',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-08-18T09:10:05.576Z',
+    date: new Date('2022-08-18T09:10:05.576Z'),
   },
   {
     name: 'Диван Менли Velvet Latte',
@@ -1725,7 +1725,7 @@ export const products: IProduct[] = [
     atr: '2001340458',
     price: 34990,
     oldPrice: 39990,
-    date: '2022-08-18T10:10:05.519Z',
+    date: new Date('2022-08-18T10:10:05.519Z'),
   },
   {
     name: 'Диван Нумо Мини Textile Sky',
@@ -1734,7 +1734,7 @@ export const products: IProduct[] = [
     atr: 'ek000000317',
     price: 13330,
     oldPrice: 36990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Поли Honey Yellow',
@@ -1743,7 +1743,7 @@ export const products: IProduct[] = [
     atr: '2001366039',
     price: 24990,
     oldPrice: 34990,
-    date: '2022-08-18T10:10:05.519Z',
+    date: new Date('2022-08-18T10:10:05.519Z'),
   },
   {
     name: 'Диван Сайле Soft Light',
@@ -1752,7 +1752,7 @@ export const products: IProduct[] = [
     atr: 'ek000002271',
     price: 41530,
     oldPrice: 69990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Grey',
@@ -1761,7 +1761,7 @@ export const products: IProduct[] = [
     atr: '2001353556',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-18T10:10:05.519Z',
+    date: new Date('2022-08-18T10:10:05.519Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Latte',
@@ -1770,7 +1770,7 @@ export const products: IProduct[] = [
     atr: '2001346193',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-18T10:10:05.519Z',
+    date: new Date('2022-08-18T10:10:05.519Z'),
   },
   {
     name: 'Диван Слипсон Мини Happy Ocean',
@@ -1779,7 +1779,7 @@ export const products: IProduct[] = [
     atr: '2001379673',
     price: 39990,
     oldPrice: 42990,
-    date: '2022-08-18T10:10:05.519Z',
+    date: new Date('2022-08-18T10:10:05.519Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Grey',
@@ -1788,7 +1788,7 @@ export const products: IProduct[] = [
     atr: '2001351949',
     price: 19990,
     oldPrice: 26990,
-    date: '2022-08-18T10:20:04.134Z',
+    date: new Date('2022-08-18T10:20:04.134Z'),
   },
   {
     name: 'Диван Кускен',
@@ -1797,7 +1797,7 @@ export const products: IProduct[] = [
     atr: '2001241089',
     price: 32990,
     oldPrice: 43990,
-    date: '2022-08-18T10:40:03.861Z',
+    date: new Date('2022-08-18T10:40:03.861Z'),
   },
   {
     name: 'Диван Шилдс Happy Yellow',
@@ -1806,7 +1806,7 @@ export const products: IProduct[] = [
     atr: '2001201052',
     price: 28140,
     oldPrice: 49990,
-    date: '2022-08-18T10:40:03.861Z',
+    date: new Date('2022-08-18T10:40:03.861Z'),
   },
   {
     name: 'Диван Эби Мини',
@@ -1815,7 +1815,7 @@ export const products: IProduct[] = [
     atr: '2001339501',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-08-18T10:40:03.861Z',
+    date: new Date('2022-08-18T10:40:03.861Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -1824,7 +1824,7 @@ export const products: IProduct[] = [
     atr: '2001297025',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-08-18T10:55:04.403Z',
+    date: new Date('2022-08-18T10:55:04.403Z'),
   },
   {
     name: 'Диван Ситено',
@@ -1833,7 +1833,7 @@ export const products: IProduct[] = [
     atr: '2001352108',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-08-18T11:15:06.127Z',
+    date: new Date('2022-08-18T11:15:06.127Z'),
   },
   {
     name: 'Диван Динс',
@@ -1842,7 +1842,7 @@ export const products: IProduct[] = [
     atr: 'kz000002647',
     price: 37990,
     oldPrice: 47990,
-    date: '2022-08-18T11:25:04.747Z',
+    date: new Date('2022-08-18T11:25:04.747Z'),
   },
   {
     name: 'Диван Динс Мини Barhat Emerald',
@@ -1851,7 +1851,7 @@ export const products: IProduct[] = [
     atr: '2001352315',
     price: 20770,
     oldPrice: 40990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Динс Мини Time Grey',
@@ -1860,7 +1860,7 @@ export const products: IProduct[] = [
     atr: 'kz000000804',
     price: 22210,
     oldPrice: 49990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Дисент Velvet Emerald',
@@ -1869,7 +1869,7 @@ export const products: IProduct[] = [
     atr: '2001230207',
     price: 37070,
     oldPrice: 69990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Кайли Velvet Ocean',
@@ -1878,7 +1878,7 @@ export const products: IProduct[] = [
     atr: 'vl000012900',
     price: 36300,
     oldPrice: 59990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Лилле Velvet Atlantic',
@@ -1887,7 +1887,7 @@ export const products: IProduct[] = [
     atr: '2001334778',
     price: 24360,
     oldPrice: 42990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Менли Velvet Ocean',
@@ -1896,7 +1896,7 @@ export const products: IProduct[] = [
     atr: '2001354417',
     price: 23470,
     oldPrice: 39990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Нумо Мини Textile Light',
@@ -1905,7 +1905,7 @@ export const products: IProduct[] = [
     atr: '2001348188',
     price: 11260,
     oldPrice: 21990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Нумо Мини Textile Light',
@@ -1914,7 +1914,7 @@ export const products: IProduct[] = [
     atr: '2001304066',
     price: 12020,
     oldPrice: 21990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Ольен',
@@ -1923,7 +1923,7 @@ export const products: IProduct[] = [
     atr: 'sp000091375',
     price: 44990,
     oldPrice: 59990,
-    date: '2022-08-18T11:50:04.865Z',
+    date: new Date('2022-08-18T11:50:04.865Z'),
   },
   {
     name: 'Диван Хоуп Velvet Navy Blue',
@@ -1932,7 +1932,7 @@ export const products: IProduct[] = [
     atr: '2001332943',
     price: 11450,
     oldPrice: 22990,
-    date: '2022-08-18T11:55:03.666Z',
+    date: new Date('2022-08-18T11:55:03.666Z'),
   },
   {
     name: 'Диван Милкен Textile Grey',
@@ -1941,7 +1941,7 @@ export const products: IProduct[] = [
     atr: '2001348407',
     price: 18310,
     oldPrice: 32990,
-    date: '2022-08-18T12:00:05.650Z',
+    date: new Date('2022-08-18T12:00:05.650Z'),
   },
   {
     name: 'Диван Лачи',
@@ -1950,7 +1950,7 @@ export const products: IProduct[] = [
     atr: '2001356826',
     price: 20930,
     oldPrice: 32990,
-    date: '2022-08-18T12:20:04.218Z',
+    date: new Date('2022-08-18T12:20:04.218Z'),
   },
   {
     name: 'Диван Льери Мини',
@@ -1959,7 +1959,7 @@ export const products: IProduct[] = [
     atr: '2001337642',
     price: 22220,
     oldPrice: 54990,
-    date: '2022-08-18T14:10:04.209Z',
+    date: new Date('2022-08-18T14:10:04.209Z'),
   },
   {
     name: 'Диван Льери',
@@ -1968,7 +1968,7 @@ export const products: IProduct[] = [
     atr: '2001358876',
     price: 35190,
     oldPrice: 74990,
-    date: '2022-08-18T16:05:04.963Z',
+    date: new Date('2022-08-18T16:05:04.963Z'),
   },
   {
     name: 'Диван Льери',
@@ -1977,7 +1977,7 @@ export const products: IProduct[] = [
     atr: '2001294319',
     price: 59990,
     oldPrice: 74990,
-    date: '2022-08-19T16:45:06.173Z',
+    date: new Date('2022-08-19T16:45:06.173Z'),
   },
   {
     name: 'Диван Маркфул',
@@ -1986,7 +1986,7 @@ export const products: IProduct[] = [
     atr: '2001340502',
     price: 30760,
     oldPrice: 65990,
-    date: '2022-08-19T16:45:06.173Z',
+    date: new Date('2022-08-19T16:45:06.173Z'),
   },
   {
     name: 'Диван Ситено',
@@ -1995,7 +1995,7 @@ export const products: IProduct[] = [
     atr: '2001356274',
     price: 24650,
     oldPrice: 53990,
-    date: '2022-08-19T16:45:06.173Z',
+    date: new Date('2022-08-19T16:45:06.173Z'),
   },
   {
     name: 'Диван Льери',
@@ -2004,7 +2004,7 @@ export const products: IProduct[] = [
     atr: 'sp000092342',
     price: 59990,
     oldPrice: 74990,
-    date: '2022-08-19T18:55:02.099Z',
+    date: new Date('2022-08-19T18:55:02.099Z'),
   },
   {
     name: 'Диван Сайле Barhat Grey',
@@ -2013,7 +2013,7 @@ export const products: IProduct[] = [
     atr: '2001133748',
     price: 38360,
     oldPrice: 79990,
-    date: '2022-08-21T09:45:07.137Z',
+    date: new Date('2022-08-21T09:45:07.137Z'),
   },
   {
     name: 'Диван Поли Velvet Yellow',
@@ -2022,7 +2022,7 @@ export const products: IProduct[] = [
     atr: '2001187390',
     price: 14710,
     oldPrice: 32990,
-    date: '2022-08-23T13:30:08.944Z',
+    date: new Date('2022-08-23T13:30:08.944Z'),
   },
   {
     name: 'Диван Лекстон Velvet Yellow',
@@ -2031,7 +2031,7 @@ export const products: IProduct[] = [
     atr: '2001358731',
     price: 29990,
     oldPrice: 34990,
-    date: '2022-08-25T08:35:05.650Z',
+    date: new Date('2022-08-25T08:35:05.650Z'),
   },
   {
     name: 'Диван Поли Honey Yellow',
@@ -2040,7 +2040,7 @@ export const products: IProduct[] = [
     atr: '2001366041',
     price: 24990,
     oldPrice: 34990,
-    date: '2022-08-25T08:35:05.651Z',
+    date: new Date('2022-08-25T08:35:05.651Z'),
   },
   {
     name: 'Диван Поли Honey Yellow',
@@ -2049,7 +2049,7 @@ export const products: IProduct[] = [
     atr: '2001366040',
     price: 24990,
     oldPrice: 34990,
-    date: '2022-08-25T09:00:06.227Z',
+    date: new Date('2022-08-25T09:00:06.227Z'),
   },
   {
     name: 'Диван Эби Мини',
@@ -2058,7 +2058,7 @@ export const products: IProduct[] = [
     atr: '2001382383',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-08-25T09:00:06.228Z',
+    date: new Date('2022-08-25T09:00:06.228Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -2067,7 +2067,7 @@ export const products: IProduct[] = [
     atr: '2001004632',
     price: 23440,
     oldPrice: 49990,
-    date: '2022-08-25T09:20:06.279Z',
+    date: new Date('2022-08-25T09:20:06.279Z'),
   },
   {
     name: 'Диван Мисл',
@@ -2076,7 +2076,7 @@ export const products: IProduct[] = [
     atr: '2001366861',
     price: 42990,
     oldPrice: 64990,
-    date: '2022-08-25T09:50:04.814Z',
+    date: new Date('2022-08-25T09:50:04.814Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -2085,7 +2085,7 @@ export const products: IProduct[] = [
     atr: '2001359717',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-08-25T09:55:04.520Z',
+    date: new Date('2022-08-25T09:55:04.520Z'),
   },
   {
     name: 'Диван Нумо Velvet Yellow',
@@ -2094,7 +2094,7 @@ export const products: IProduct[] = [
     atr: '2001368151',
     price: 15980,
     oldPrice: 29990,
-    date: '2022-08-25T11:05:04.472Z',
+    date: new Date('2022-08-25T11:05:04.472Z'),
   },
   {
     name: 'Диван Рейли Velvet Grey',
@@ -2103,7 +2103,7 @@ export const products: IProduct[] = [
     atr: '2001329122',
     price: 17510,
     oldPrice: 32990,
-    date: '2022-08-25T11:05:04.472Z',
+    date: new Date('2022-08-25T11:05:04.472Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Yellow',
@@ -2112,7 +2112,7 @@ export const products: IProduct[] = [
     atr: '2001364404',
     price: 19350,
     oldPrice: 34990,
-    date: '2022-08-25T11:15:04.589Z',
+    date: new Date('2022-08-25T11:15:04.589Z'),
   },
   {
     name: 'Диван Викс Textile Yellow',
@@ -2121,7 +2121,7 @@ export const products: IProduct[] = [
     atr: '2001333211',
     price: 11020,
     oldPrice: 19990,
-    date: '2022-08-25T11:15:04.589Z',
+    date: new Date('2022-08-25T11:15:04.589Z'),
   },
   {
     name: 'Диван Динс Мини Barhat Emerald',
@@ -2130,7 +2130,7 @@ export const products: IProduct[] = [
     atr: '2001166303',
     price: 19840,
     oldPrice: 40990,
-    date: '2022-08-25T11:15:04.589Z',
+    date: new Date('2022-08-25T11:15:04.589Z'),
   },
   {
     name: 'Диван Менли Velvet Yellow',
@@ -2139,7 +2139,7 @@ export const products: IProduct[] = [
     atr: '2001074540',
     price: 21820,
     oldPrice: 39990,
-    date: '2022-08-25T11:15:04.589Z',
+    date: new Date('2022-08-25T11:15:04.589Z'),
   },
   {
     name: 'Диван Милкен',
@@ -2148,7 +2148,7 @@ export const products: IProduct[] = [
     atr: '2001359792',
     price: 19690,
     oldPrice: 38990,
-    date: '2022-08-25T11:50:05.071Z',
+    date: new Date('2022-08-25T11:50:05.071Z'),
   },
   {
     name: 'Диван Сайле Barhat Amber',
@@ -2157,7 +2157,7 @@ export const products: IProduct[] = [
     atr: '2000839809',
     price: 29370,
     oldPrice: 74990,
-    date: '2022-08-26T08:30:05.189Z',
+    date: new Date('2022-08-26T08:30:05.189Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -2166,7 +2166,7 @@ export const products: IProduct[] = [
     atr: '2001356175',
     price: 24650,
     oldPrice: 54990,
-    date: '2022-08-26T09:20:03.998Z',
+    date: new Date('2022-08-26T09:20:03.998Z'),
   },
   {
     name: 'Диван Старк Velvet Grey',
@@ -2175,7 +2175,7 @@ export const products: IProduct[] = [
     atr: '2001382327',
     price: 19990,
     oldPrice: 25990,
-    date: '2022-08-26T09:45:06.727Z',
+    date: new Date('2022-08-26T09:45:06.727Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -2184,7 +2184,7 @@ export const products: IProduct[] = [
     atr: '2001230866',
     price: 39990,
     oldPrice: 57990,
-    date: '2022-08-26T14:20:03.416Z',
+    date: new Date('2022-08-26T14:20:03.416Z'),
   },
   {
     name: 'Диван Спейс',
@@ -2193,7 +2193,7 @@ export const products: IProduct[] = [
     atr: '2001297097',
     price: 31990,
     oldPrice: 64990,
-    date: '2022-08-26T18:50:04.415Z',
+    date: new Date('2022-08-26T18:50:04.415Z'),
   },
   {
     name: 'Диван Милкен',
@@ -2202,7 +2202,7 @@ export const products: IProduct[] = [
     atr: '2001244320',
     price: 29990,
     oldPrice: 38990,
-    date: '2022-08-29T09:15:07.803Z',
+    date: new Date('2022-08-29T09:15:07.803Z'),
   },
   {
     name: 'Диван Каир Velvet Green',
@@ -2211,7 +2211,7 @@ export const products: IProduct[] = [
     atr: '2001074829',
     price: 9030,
     oldPrice: 17990,
-    date: '2022-08-30T08:15:07.042Z',
+    date: new Date('2022-08-30T08:15:07.042Z'),
   },
   {
     name: 'Диван Ситено',
@@ -2220,7 +2220,7 @@ export const products: IProduct[] = [
     atr: '2001357447',
     price: 25190,
     oldPrice: 53990,
-    date: '2022-08-30T10:50:06.477Z',
+    date: new Date('2022-08-30T10:50:06.477Z'),
   },
   {
     name: 'Диван Хевит Barhat Grey',
@@ -2229,7 +2229,7 @@ export const products: IProduct[] = [
     atr: '2001253488',
     price: 21820,
     oldPrice: 34990,
-    date: '2022-08-30T11:35:05.103Z',
+    date: new Date('2022-08-30T11:35:05.103Z'),
   },
   {
     name: 'Диван Хевит Barhat Salmon',
@@ -2238,7 +2238,7 @@ export const products: IProduct[] = [
     atr: '2000866813',
     price: 16240,
     oldPrice: 34990,
-    date: '2022-08-30T11:35:05.103Z',
+    date: new Date('2022-08-30T11:35:05.103Z'),
   },
   {
     name: 'Диван Шилдс Soft Pink',
@@ -2247,7 +2247,7 @@ export const products: IProduct[] = [
     atr: 'vl000011537',
     price: 28140,
     oldPrice: 44990,
-    date: '2022-08-30T11:35:05.103Z',
+    date: new Date('2022-08-30T11:35:05.103Z'),
   },
   {
     name: 'Диван Эби Happy Light',
@@ -2256,7 +2256,7 @@ export const products: IProduct[] = [
     atr: '2001286874',
     price: 29900,
     oldPrice: 49990,
-    date: '2022-08-30T11:35:05.103Z',
+    date: new Date('2022-08-30T11:35:05.103Z'),
   },
   {
     name: 'Диван Бриес',
@@ -2265,7 +2265,7 @@ export const products: IProduct[] = [
     atr: '2001360832',
     price: 24990,
     oldPrice: 53990,
-    date: '2022-08-30T11:45:02.386Z',
+    date: new Date('2022-08-30T11:45:02.386Z'),
   },
   {
     name: 'Диван Дара',
@@ -2274,7 +2274,7 @@ export const products: IProduct[] = [
     atr: '2001040124',
     price: 32790,
     oldPrice: 40990,
-    date: '2022-09-01T09:20:04.768Z',
+    date: new Date('2022-09-01T09:20:04.768Z'),
   },
   {
     name: 'Диван Льери Barhat Blue',
@@ -2282,7 +2282,7 @@ export const products: IProduct[] = [
     atr: '2000821942',
     price: 27240,
     oldPrice: 0,
-    date: '2022-09-09T07:20:08.861Z',
+    date: new Date('2022-09-09T07:20:08.861Z'),
   },
   {
     name: 'Диван Ситено Мини Velvet Ocean',
@@ -2290,7 +2290,7 @@ export const products: IProduct[] = [
     atr: '2001193099',
     price: 24070,
     oldPrice: 0,
-    date: '2022-09-09T07:20:08.861Z',
+    date: new Date('2022-09-09T07:20:08.861Z'),
   },
   {
     name: 'Диван Ситено Barhat Grey',
@@ -2298,7 +2298,7 @@ export const products: IProduct[] = [
     atr: '2001326209',
     price: 39990,
     oldPrice: 0,
-    date: '2022-09-12T08:30:07.286Z',
+    date: new Date('2022-09-12T08:30:07.286Z'),
   },
   {
     name: 'Диван Марси',
@@ -2306,7 +2306,7 @@ export const products: IProduct[] = [
     atr: '2001392674',
     price: 34990,
     oldPrice: 0,
-    date: '2022-09-12T08:50:06.892Z',
+    date: new Date('2022-09-12T08:50:06.892Z'),
   },
   {
     name: 'Диван Ситено',
@@ -2314,7 +2314,7 @@ export const products: IProduct[] = [
     atr: '2001372475',
     price: 39990,
     oldPrice: 0,
-    date: '2022-09-12T08:50:06.892Z',
+    date: new Date('2022-09-12T08:50:06.892Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -2322,7 +2322,7 @@ export const products: IProduct[] = [
     atr: '2001394128',
     price: 39990,
     oldPrice: 0,
-    date: '2022-09-12T08:55:06.178Z',
+    date: new Date('2022-09-12T08:55:06.178Z'),
   },
   {
     name: 'Диван Динс',
@@ -2330,7 +2330,7 @@ export const products: IProduct[] = [
     atr: 'vl000017099',
     price: 37990,
     oldPrice: 0,
-    date: '2022-09-13T07:05:05.629Z',
+    date: new Date('2022-09-13T07:05:05.629Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -2338,7 +2338,7 @@ export const products: IProduct[] = [
     atr: '2001392932',
     price: 39990,
     oldPrice: 0,
-    date: '2022-09-13T08:30:09.468Z',
+    date: new Date('2022-09-13T08:30:09.468Z'),
   },
   {
     name: 'Диван Берг Velvet Grafit',
@@ -2347,7 +2347,7 @@ export const products: IProduct[] = [
     atr: 'ek000003593',
     price: 6890,
     oldPrice: 22990,
-    date: '2022-09-22T11:15:07.503Z',
+    date: new Date('2022-09-22T11:15:07.503Z'),
   },
   {
     name: 'Диван Динен Barhat Blue',
@@ -2356,7 +2356,7 @@ export const products: IProduct[] = [
     atr: '2000958404',
     price: 17420,
     oldPrice: 39990,
-    date: '2022-09-22T11:15:07.503Z',
+    date: new Date('2022-09-22T11:15:07.503Z'),
   },
   {
     name: 'Диван Лачи Velvet Grafit',
@@ -2365,7 +2365,7 @@ export const products: IProduct[] = [
     atr: 'ek000003804',
     price: 9190,
     oldPrice: 26990,
-    date: '2022-09-22T11:15:07.503Z',
+    date: new Date('2022-09-22T11:15:07.503Z'),
   },
   {
     name: 'Диван Рон Textile Cream',
@@ -2374,7 +2374,7 @@ export const products: IProduct[] = [
     atr: '2001290904',
     price: 23350,
     oldPrice: 39990,
-    date: '2022-09-22T11:15:07.504Z',
+    date: new Date('2022-09-22T11:15:07.504Z'),
   },
   {
     name: 'Диван Динен',
@@ -2383,7 +2383,7 @@ export const products: IProduct[] = [
     atr: 'ek000004528',
     price: 27990,
     oldPrice: 40990,
-    date: '2022-09-22T12:15:06.398Z',
+    date: new Date('2022-09-22T12:15:06.398Z'),
   },
   {
     name: 'Диван Вернон 160 Velvet Emerald',
@@ -2391,7 +2391,7 @@ export const products: IProduct[] = [
     atr: '2001320892',
     price: 29440,
     oldPrice: 0,
-    date: '2022-09-23T09:05:05.252Z',
+    date: new Date('2022-09-23T09:05:05.252Z'),
   },
   {
     name: 'Диван Динен',
@@ -2399,7 +2399,7 @@ export const products: IProduct[] = [
     atr: 'kz000002354',
     price: 27990,
     oldPrice: 0,
-    date: '2022-09-23T09:05:05.252Z',
+    date: new Date('2022-09-23T09:05:05.252Z'),
   },
   {
     name: 'Диван Динс Velvet Yellow',
@@ -2407,7 +2407,7 @@ export const products: IProduct[] = [
     atr: '2001375591',
     price: 23310,
     oldPrice: 0,
-    date: '2022-09-23T09:05:05.252Z',
+    date: new Date('2022-09-23T09:05:05.252Z'),
   },
   {
     name: 'Диван Каир',
@@ -2415,7 +2415,7 @@ export const products: IProduct[] = [
     atr: '2001406456',
     price: 14990,
     oldPrice: 0,
-    date: '2022-09-23T09:05:05.252Z',
+    date: new Date('2022-09-23T09:05:05.252Z'),
   },
   {
     name: 'Диван Лофт',
@@ -2424,7 +2424,7 @@ export const products: IProduct[] = [
     atr: 'sp000088915',
     price: 29990,
     oldPrice: 48490,
-    date: '2022-09-23T09:10:05.340Z',
+    date: new Date('2022-09-23T09:10:05.340Z'),
   },
   {
     name: 'Диван Ольен Happy Grafit',
@@ -2433,7 +2433,7 @@ export const products: IProduct[] = [
     atr: '2001245887',
     price: 26590,
     oldPrice: 52990,
-    date: '2022-09-25T23:15:06.808Z',
+    date: new Date('2022-09-25T23:15:06.808Z'),
   },
   {
     name: 'Диван Линс',
@@ -2441,7 +2441,7 @@ export const products: IProduct[] = [
     atr: '2001355106',
     price: 27990,
     oldPrice: 0,
-    date: '2022-09-26T08:45:06.321Z',
+    date: new Date('2022-09-26T08:45:06.321Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -2449,7 +2449,7 @@ export const products: IProduct[] = [
     atr: '2001352549',
     price: 23990,
     oldPrice: 0,
-    date: '2022-09-26T09:20:07.098Z',
+    date: new Date('2022-09-26T09:20:07.098Z'),
   },
   {
     name: 'Диван Хоуп Velvet Yellow',
@@ -2457,7 +2457,7 @@ export const products: IProduct[] = [
     atr: '2001366258',
     price: 11450,
     oldPrice: 0,
-    date: '2022-09-26T11:40:07.475Z',
+    date: new Date('2022-09-26T11:40:07.475Z'),
   },
   {
     name: 'Диван Этро Velvet Emerald',
@@ -2465,7 +2465,7 @@ export const products: IProduct[] = [
     atr: '2001338532',
     price: 24870,
     oldPrice: 0,
-    date: '2022-09-26T11:40:07.475Z',
+    date: new Date('2022-09-26T11:40:07.475Z'),
   },
   {
     name: 'Диван Лекстон Velvet Yellow',
@@ -2473,7 +2473,7 @@ export const products: IProduct[] = [
     atr: 'sp000095682',
     price: 24990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ольен Мини',
@@ -2482,7 +2482,7 @@ export const products: IProduct[] = [
     atr: '2001384262',
     price: 34990,
     oldPrice: 48990,
-    date: '2022-09-26T12:15:05.121Z',
+    date: new Date('2022-09-26T12:15:05.121Z'),
   },
   {
     name: 'Диван Вероли Velvet Emerald',
@@ -2490,7 +2490,7 @@ export const products: IProduct[] = [
     atr: '2001296744',
     price: 36090,
     oldPrice: 0,
-    date: '2022-09-26T12:20:05.865Z',
+    date: new Date('2022-09-26T12:20:05.865Z'),
   },
   {
     name: 'Диван Китис Velvet Navy',
@@ -2498,7 +2498,7 @@ export const products: IProduct[] = [
     atr: '2001296783',
     price: 42090,
     oldPrice: 0,
-    date: '2022-09-26T12:20:05.865Z',
+    date: new Date('2022-09-26T12:20:05.865Z'),
   },
   {
     name: 'Диван Мосс 160 Happy Grafit',
@@ -2506,7 +2506,7 @@ export const products: IProduct[] = [
     atr: '2001236509',
     price: 40790,
     oldPrice: 0,
-    date: '2022-09-26T12:20:05.865Z',
+    date: new Date('2022-09-26T12:20:05.865Z'),
   },
   {
     name: 'Диван Мосс Happy Grafit',
@@ -2514,7 +2514,7 @@ export const products: IProduct[] = [
     atr: '2001152030',
     price: 32590,
     oldPrice: 0,
-    date: '2022-09-26T12:20:05.865Z',
+    date: new Date('2022-09-26T12:20:05.865Z'),
   },
   {
     name: 'Диван Остин 160 Velvet Emerald',
@@ -2522,7 +2522,7 @@ export const products: IProduct[] = [
     atr: '2001296861',
     price: 28890,
     oldPrice: 0,
-    date: '2022-09-26T12:20:05.865Z',
+    date: new Date('2022-09-26T12:20:05.865Z'),
   },
   {
     name: 'Диван Остин Velvet Brown',
@@ -2530,7 +2530,7 @@ export const products: IProduct[] = [
     atr: '2001296867',
     price: 24990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Эвора 116',
@@ -2539,7 +2539,7 @@ export const products: IProduct[] = [
     atr: '2001156231',
     price: 34790,
     oldPrice: 46990,
-    date: '2022-09-26T14:10:06.778Z',
+    date: new Date('2022-09-26T14:10:06.778Z'),
   },
   {
     name: 'Диван Слипсон Мини Gene Grey',
@@ -2547,7 +2547,7 @@ export const products: IProduct[] = [
     atr: '2001282038',
     price: 30790,
     oldPrice: 0,
-    date: '2022-09-27T05:10:05.644Z',
+    date: new Date('2022-09-27T05:10:05.644Z'),
   },
   {
     name: 'Диван Динен',
@@ -2556,7 +2556,7 @@ export const products: IProduct[] = [
     atr: 'ek000005052',
     price: 27990,
     oldPrice: 40990,
-    date: '2022-09-27T11:25:05.856Z',
+    date: new Date('2022-09-27T11:25:05.856Z'),
   },
   {
     name: 'Диван Спейс Happy Grey',
@@ -2565,7 +2565,7 @@ export const products: IProduct[] = [
     atr: 'sp000085480',
     price: 49990,
     oldPrice: 59990,
-    date: '2022-09-28T07:25:04.569Z',
+    date: new Date('2022-09-28T07:25:04.569Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -2573,7 +2573,7 @@ export const products: IProduct[] = [
     atr: '2001358649',
     price: 33690,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Виена Velvet Light',
@@ -2581,7 +2581,7 @@ export const products: IProduct[] = [
     atr: '2001391450',
     price: 44990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Лиент Velvet Grafit',
@@ -2589,7 +2589,7 @@ export const products: IProduct[] = [
     atr: '2001338443',
     price: 44990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Лиент Velvet Yellow',
@@ -2597,7 +2597,7 @@ export const products: IProduct[] = [
     atr: '2001371173',
     price: 44990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Маркфул Barhat Emerald',
@@ -2605,7 +2605,7 @@ export const products: IProduct[] = [
     atr: '2001332812',
     price: 44990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Масио Velvet Light Grey',
@@ -2613,7 +2613,7 @@ export const products: IProduct[] = [
     atr: '2001338444',
     price: 29290,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Миннесота Textile Latte',
@@ -2621,7 +2621,7 @@ export const products: IProduct[] = [
     atr: '2001396908',
     price: 27090,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Мосс Happy Ocean',
@@ -2629,7 +2629,7 @@ export const products: IProduct[] = [
     atr: '2001338455',
     price: 36090,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Ольен Мини',
@@ -2637,7 +2637,7 @@ export const products: IProduct[] = [
     atr: '2001359379',
     price: 36990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Остин 160 Velvet Blue',
@@ -2645,7 +2645,7 @@ export const products: IProduct[] = [
     atr: '2001384290',
     price: 29990,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.918Z',
+    date: new Date('2022-09-28T17:55:05.918Z'),
   },
   {
     name: 'Диван Старк Velvet Brown',
@@ -2653,7 +2653,7 @@ export const products: IProduct[] = [
     atr: '2001375908',
     price: 26490,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.919Z',
+    date: new Date('2022-09-28T17:55:05.919Z'),
   },
   {
     name: 'Диван Старк Velvet Grey',
@@ -2661,7 +2661,7 @@ export const products: IProduct[] = [
     atr: '2001367736',
     price: 26490,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.919Z',
+    date: new Date('2022-09-28T17:55:05.919Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Grey',
@@ -2669,7 +2669,7 @@ export const products: IProduct[] = [
     atr: '2001338516',
     price: 29490,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.919Z',
+    date: new Date('2022-09-28T17:55:05.919Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Light',
@@ -2677,7 +2677,7 @@ export const products: IProduct[] = [
     atr: '2001338518',
     price: 29490,
     oldPrice: 0,
-    date: '2022-09-28T17:55:05.919Z',
+    date: new Date('2022-09-28T17:55:05.919Z'),
   },
   {
     name: 'Диван Сайле',
@@ -2685,7 +2685,7 @@ export const products: IProduct[] = [
     atr: 'sp000095353',
     price: 54990,
     oldPrice: 0,
-    date: '2022-09-28T18:10:07.173Z',
+    date: new Date('2022-09-28T18:10:07.173Z'),
   },
   {
     name: 'Диван Викс Textile Light',
@@ -2693,7 +2693,7 @@ export const products: IProduct[] = [
     atr: '2001348360',
     price: 11020,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Динс Velvet Navy Blue',
@@ -2701,7 +2701,7 @@ export const products: IProduct[] = [
     atr: '2001366043',
     price: 22250,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Динс Velvet Yellow',
@@ -2709,7 +2709,7 @@ export const products: IProduct[] = [
     atr: '2001315481',
     price: 24250,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Кайрон Velvet Coral',
@@ -2717,7 +2717,7 @@ export const products: IProduct[] = [
     atr: '2001091900',
     price: 27410,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Лиент Velvet Grafit',
@@ -2725,7 +2725,7 @@ export const products: IProduct[] = [
     atr: '2001338442',
     price: 44990,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Лилле Velvet Stone',
@@ -2733,7 +2733,7 @@ export const products: IProduct[] = [
     atr: '2001357721',
     price: 24360,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Линс Velvet Emerald',
@@ -2741,7 +2741,7 @@ export const products: IProduct[] = [
     atr: '2001372892',
     price: 14880,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Линс Velvet Yellow',
@@ -2749,7 +2749,7 @@ export const products: IProduct[] = [
     atr: '2001376126',
     price: 14880,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Лофт Navy Blue',
@@ -2757,7 +2757,7 @@ export const products: IProduct[] = [
     atr: '2001382833',
     price: 20960,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Льери Barhat Silver',
@@ -2765,7 +2765,7 @@ export const products: IProduct[] = [
     atr: '2001333261',
     price: 34580,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Мосс Happy Ocean',
@@ -2773,7 +2773,7 @@ export const products: IProduct[] = [
     atr: '2001338457',
     price: 36090,
     oldPrice: 0,
-    date: '2022-09-28T19:05:05.985Z',
+    date: new Date('2022-09-28T19:05:05.985Z'),
   },
   {
     name: 'Диван Фолс Velvet Ocean',
@@ -2781,7 +2781,7 @@ export const products: IProduct[] = [
     atr: '2001296910',
     price: 36090,
     oldPrice: 0,
-    date: '2022-09-28T20:25:05.969Z',
+    date: new Date('2022-09-28T20:25:05.969Z'),
   },
   {
     name: 'Диван Нумо Velvet Grafit',
@@ -2789,7 +2789,7 @@ export const products: IProduct[] = [
     atr: '2001372668',
     price: 15980,
     oldPrice: 0,
-    date: '2022-09-29T07:15:06.801Z',
+    date: new Date('2022-09-29T07:15:06.801Z'),
   },
   {
     name: 'Диван Нумо Velvet Latte',
@@ -2797,7 +2797,7 @@ export const products: IProduct[] = [
     atr: '2001325539',
     price: 15980,
     oldPrice: 0,
-    date: '2022-09-29T07:15:06.801Z',
+    date: new Date('2022-09-29T07:15:06.801Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Light',
@@ -2805,7 +2805,7 @@ export const products: IProduct[] = [
     atr: '2001338517',
     price: 29490,
     oldPrice: 0,
-    date: '2022-09-29T07:30:08.162Z',
+    date: new Date('2022-09-29T07:30:08.162Z'),
   },
   {
     name: 'Диван Лекстон Velvet Latte',
@@ -2813,7 +2813,7 @@ export const products: IProduct[] = [
     atr: 'vl000013209',
     price: 19790,
     oldPrice: 0,
-    date: '2022-09-29T13:40:07.840Z',
+    date: new Date('2022-09-29T13:40:07.840Z'),
   },
   {
     name: 'Диван Лофт Velvet Grafit',
@@ -2821,7 +2821,7 @@ export const products: IProduct[] = [
     atr: '2001126096',
     price: 19610,
     oldPrice: 0,
-    date: '2022-09-29T13:40:07.840Z',
+    date: new Date('2022-09-29T13:40:07.840Z'),
   },
   {
     name: 'Диван Нумо Velvet Latte',
@@ -2829,7 +2829,7 @@ export const products: IProduct[] = [
     atr: '2001325513',
     price: 15980,
     oldPrice: 0,
-    date: '2022-09-29T13:40:07.840Z',
+    date: new Date('2022-09-29T13:40:07.840Z'),
   },
   {
     name: 'Диван Виена Velvet Light',
@@ -2837,7 +2837,7 @@ export const products: IProduct[] = [
     atr: 'vl000014754',
     price: 44990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.654Z',
+    date: new Date('2022-10-06T10:20:08.654Z'),
   },
   {
     name: 'Диван Данста',
@@ -2845,7 +2845,7 @@ export const products: IProduct[] = [
     atr: '2001418319',
     price: 44990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.654Z',
+    date: new Date('2022-10-06T10:20:08.654Z'),
   },
   {
     name: 'Диван Динен Velvet Emerald',
@@ -2853,7 +2853,7 @@ export const products: IProduct[] = [
     atr: '2001333263',
     price: 18800,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.654Z',
+    date: new Date('2022-10-06T10:20:08.654Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -2861,7 +2861,7 @@ export const products: IProduct[] = [
     atr: '2001405172',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.654Z',
+    date: new Date('2022-10-06T10:20:08.654Z'),
   },
   {
     name: 'Диван Динс',
@@ -2869,7 +2869,7 @@ export const products: IProduct[] = [
     atr: '2001375981',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.654Z',
+    date: new Date('2022-10-06T10:20:08.654Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -2877,7 +2877,7 @@ export const products: IProduct[] = [
     atr: '2001338103',
     price: 37990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Кайрон Velvet Coral',
@@ -2885,7 +2885,7 @@ export const products: IProduct[] = [
     atr: '2001338424',
     price: 30960,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Кускен Velvet Grafit',
@@ -2893,7 +2893,7 @@ export const products: IProduct[] = [
     atr: '2001379151',
     price: 19340,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Emerald',
@@ -2901,7 +2901,7 @@ export const products: IProduct[] = [
     atr: 'kr000000721',
     price: 59990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Grey',
@@ -2909,7 +2909,7 @@ export const products: IProduct[] = [
     atr: '2001419700',
     price: 59990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Light',
@@ -2917,7 +2917,7 @@ export const products: IProduct[] = [
     atr: 'sp000095139',
     price: 59990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Лачи',
@@ -2925,7 +2925,7 @@ export const products: IProduct[] = [
     atr: 'ek000006612',
     price: 24990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Лофт',
@@ -2933,7 +2933,7 @@ export const products: IProduct[] = [
     atr: '2001370601',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Лофт Velvet Latte',
@@ -2942,7 +2942,7 @@ export const products: IProduct[] = [
     atr: 'ek000000362',
     price: 22570,
     oldPrice: 34990,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Льери',
@@ -2950,7 +2950,7 @@ export const products: IProduct[] = [
     atr: 'ek000003437',
     price: 59990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Льери Velvet Light',
@@ -2958,7 +2958,7 @@ export const products: IProduct[] = [
     atr: '2001236193',
     price: 36650,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Марси Velvet Blue',
@@ -2967,7 +2967,7 @@ export const products: IProduct[] = [
     atr: '2001239651',
     price: 37990,
     oldPrice: 42990,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Марси Velvet Grafit',
@@ -2975,7 +2975,7 @@ export const products: IProduct[] = [
     atr: '2001407363',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Нумо Time Brown',
@@ -2983,7 +2983,7 @@ export const products: IProduct[] = [
     atr: '2001412987',
     price: 26990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Остин 160 Velvet Grey',
@@ -2991,7 +2991,7 @@ export const products: IProduct[] = [
     atr: '2001394714',
     price: 26490,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Порту Textile Latte',
@@ -2999,7 +2999,7 @@ export const products: IProduct[] = [
     atr: '2001394937',
     price: 13130,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Сан-Паулу Velvet Grey',
@@ -3007,7 +3007,7 @@ export const products: IProduct[] = [
     atr: '2001333347',
     price: 19990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Сваут Velvet Grey',
@@ -3015,7 +3015,7 @@ export const products: IProduct[] = [
     atr: 'vl000017063',
     price: 30700,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3023,7 +3023,7 @@ export const products: IProduct[] = [
     atr: '2001405295',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -3031,7 +3031,7 @@ export const products: IProduct[] = [
     atr: '2001373016',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -3039,7 +3039,7 @@ export const products: IProduct[] = [
     atr: '2001405353',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -3047,7 +3047,7 @@ export const products: IProduct[] = [
     atr: '2001408627',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Хоуп Time Brown',
@@ -3055,7 +3055,7 @@ export const products: IProduct[] = [
     atr: 'ek000003737',
     price: 11490,
     oldPrice: 0,
-    date: '2022-11-10T13:10:07.566Z',
+    date: new Date('2022-11-10T13:10:07.566Z'),
   },
   {
     name: 'Диван Честер-2 Velvet Latte',
@@ -3064,7 +3064,7 @@ export const products: IProduct[] = [
     atr: '2001146049',
     price: 23997,
     oldPrice: 79990,
-    date: '2022-11-14T00:48:08.892Z',
+    date: new Date('2022-11-14T00:48:08.892Z'),
   },
   {
     name: 'Диван Эби Gene Grey',
@@ -3072,7 +3072,7 @@ export const products: IProduct[] = [
     atr: '2001337387',
     price: 47990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Эби Мини',
@@ -3080,7 +3080,7 @@ export const products: IProduct[] = [
     atr: '2001248372',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Эби Мини Time Mint',
@@ -3089,7 +3089,7 @@ export const products: IProduct[] = [
     atr: '2001137853',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Этро Velvet Blue',
@@ -3097,7 +3097,7 @@ export const products: IProduct[] = [
     atr: '2001377396',
     price: 27690,
     oldPrice: 0,
-    date: '2022-10-06T10:20:08.655Z',
+    date: new Date('2022-10-06T10:20:08.655Z'),
   },
   {
     name: 'Диван Марси',
@@ -3105,7 +3105,7 @@ export const products: IProduct[] = [
     atr: '2001403023',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-06T10:35:04.909Z',
+    date: new Date('2022-10-06T10:35:04.909Z'),
   },
   {
     name: 'Диван Марси Velvet Grafit',
@@ -3113,7 +3113,7 @@ export const products: IProduct[] = [
     atr: '2001405058',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-06T10:35:04.909Z',
+    date: new Date('2022-10-06T10:35:04.909Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -3121,7 +3121,7 @@ export const products: IProduct[] = [
     atr: '2001379845',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-06T10:40:08.122Z',
+    date: new Date('2022-10-06T10:40:08.122Z'),
   },
   {
     name: 'Диван Спейс',
@@ -3130,7 +3130,7 @@ export const products: IProduct[] = [
     atr: '2001187389',
     price: 49990,
     oldPrice: 73990,
-    date: '2022-10-06T11:20:07.461Z',
+    date: new Date('2022-10-06T11:20:07.461Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -3138,7 +3138,7 @@ export const products: IProduct[] = [
     atr: '2001404307',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-06T12:15:05.829Z',
+    date: new Date('2022-10-06T12:15:05.829Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -3146,7 +3146,7 @@ export const products: IProduct[] = [
     atr: '2001405173',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-06T13:10:07.664Z',
+    date: new Date('2022-10-06T13:10:07.664Z'),
   },
   {
     name: 'Диван Ситено Мини Barhat Emerald',
@@ -3155,7 +3155,7 @@ export const products: IProduct[] = [
     atr: '2001195452',
     price: 47990,
     oldPrice: 54990,
-    date: '2022-10-06T13:10:07.665Z',
+    date: new Date('2022-10-06T13:10:07.665Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -3163,7 +3163,7 @@ export const products: IProduct[] = [
     atr: '2001372886',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-06T14:20:08.134Z',
+    date: new Date('2022-10-06T14:20:08.134Z'),
   },
   {
     name: 'Диван Динен Velvet Beige',
@@ -3172,7 +3172,7 @@ export const products: IProduct[] = [
     atr: '2001197343',
     price: 10890,
     oldPrice: 42990,
-    date: '2022-10-06T14:30:09.173Z',
+    date: new Date('2022-10-06T14:30:09.173Z'),
   },
   {
     name: 'Диван Мисл',
@@ -3180,7 +3180,7 @@ export const products: IProduct[] = [
     atr: 'ek000007105',
     price: 42990,
     oldPrice: 0,
-    date: '2022-10-07T07:10:09.287Z',
+    date: new Date('2022-10-07T07:10:09.287Z'),
   },
   {
     name: 'Диван Лилле Velvet Grey',
@@ -3188,7 +3188,7 @@ export const products: IProduct[] = [
     atr: '2001309663',
     price: 24360,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -3197,7 +3197,7 @@ export const products: IProduct[] = [
     atr: 'sp000099175',
     price: 37990,
     oldPrice: 54990,
-    date: '2022-10-10T06:25:05.984Z',
+    date: new Date('2022-10-10T06:25:05.984Z'),
   },
   {
     name: 'Диван Льери',
@@ -3206,7 +3206,7 @@ export const products: IProduct[] = [
     atr: '2001434256',
     price: 54990,
     oldPrice: 75990,
-    date: '2022-10-10T06:50:06.326Z',
+    date: new Date('2022-10-10T06:50:06.326Z'),
   },
   {
     name: 'Диван Ситено Velvet Light',
@@ -3214,7 +3214,7 @@ export const products: IProduct[] = [
     atr: '2001372951',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-10T08:00:09.428Z',
+    date: new Date('2022-10-10T08:00:09.428Z'),
   },
   {
     name: 'Диван Динс Velvet Yellow',
@@ -3222,7 +3222,7 @@ export const products: IProduct[] = [
     atr: '2001275064',
     price: 24250,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Кайрон Velvet Grey',
@@ -3230,7 +3230,7 @@ export const products: IProduct[] = [
     atr: '2001342846',
     price: 28930,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Кускен Velvet Yellow',
@@ -3238,7 +3238,7 @@ export const products: IProduct[] = [
     atr: '2001244185',
     price: 22410,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Льери Barhat Beige',
@@ -3246,7 +3246,7 @@ export const products: IProduct[] = [
     atr: '2001375862',
     price: 36650,
     oldPrice: 0,
-    date: '2022-10-10T09:25:05.151Z',
+    date: new Date('2022-10-10T09:25:05.151Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -3254,7 +3254,7 @@ export const products: IProduct[] = [
     atr: '2001020169',
     price: 23440,
     oldPrice: 0,
-    date: '2022-10-10T11:00:09.056Z',
+    date: new Date('2022-10-10T11:00:09.056Z'),
   },
   {
     name: 'Диван Спейс Happy Ocean',
@@ -3262,7 +3262,7 @@ export const products: IProduct[] = [
     atr: '2001318670',
     price: 28810,
     oldPrice: 0,
-    date: '2022-10-10T11:00:09.056Z',
+    date: new Date('2022-10-10T11:00:09.056Z'),
   },
   {
     name: 'Диван Кантри Velvet Latte',
@@ -3270,7 +3270,7 @@ export const products: IProduct[] = [
     atr: '2001066168',
     price: 19390,
     oldPrice: 0,
-    date: '2022-10-10T12:20:06.228Z',
+    date: new Date('2022-10-10T12:20:06.228Z'),
   },
   {
     name: 'Диван Милкен Textile Mint',
@@ -3278,7 +3278,7 @@ export const products: IProduct[] = [
     atr: '2001348420',
     price: 18310,
     oldPrice: 0,
-    date: '2022-10-10T13:10:07.794Z',
+    date: new Date('2022-10-10T13:10:07.794Z'),
   },
   {
     name: 'Диван Рейли Velvet Coral',
@@ -3286,7 +3286,7 @@ export const products: IProduct[] = [
     atr: '2001192374',
     price: 15230,
     oldPrice: 0,
-    date: '2022-10-10T13:10:07.794Z',
+    date: new Date('2022-10-10T13:10:07.794Z'),
   },
   {
     name: 'Диван Льери Мини',
@@ -3294,7 +3294,7 @@ export const products: IProduct[] = [
     atr: 'sp000087865',
     price: 22220,
     oldPrice: 0,
-    date: '2022-10-10T13:45:07.046Z',
+    date: new Date('2022-10-10T13:45:07.046Z'),
   },
   {
     name: 'Диван Динс Velvet Emerald',
@@ -3302,7 +3302,7 @@ export const products: IProduct[] = [
     atr: '2001396447',
     price: 22250,
     oldPrice: 0,
-    date: '2022-10-10T14:25:06.301Z',
+    date: new Date('2022-10-10T14:25:06.301Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Ocean',
@@ -3310,7 +3310,7 @@ export const products: IProduct[] = [
     atr: '2001405220',
     price: 20820,
     oldPrice: 0,
-    date: '2022-10-10T14:25:06.301Z',
+    date: new Date('2022-10-10T14:25:06.301Z'),
   },
   {
     name: 'Диван Лофт Navy Blue',
@@ -3318,7 +3318,7 @@ export const products: IProduct[] = [
     atr: '2001245044',
     price: 22570,
     oldPrice: 0,
-    date: '2022-10-10T14:25:06.301Z',
+    date: new Date('2022-10-10T14:25:06.301Z'),
   },
   {
     name: 'Диван Нумо Sherst Blue',
@@ -3326,7 +3326,7 @@ export const products: IProduct[] = [
     atr: '2001385478',
     price: 17590,
     oldPrice: 0,
-    date: '2022-10-10T14:25:06.301Z',
+    date: new Date('2022-10-10T14:25:06.301Z'),
   },
   {
     name: 'Диван Нумо Velvet Latte',
@@ -3334,7 +3334,7 @@ export const products: IProduct[] = [
     atr: '2001372701',
     price: 15980,
     oldPrice: 0,
-    date: '2022-10-10T14:25:06.301Z',
+    date: new Date('2022-10-10T14:25:06.301Z'),
   },
   {
     name: 'Диван Ситено Velvet Light',
@@ -3342,7 +3342,7 @@ export const products: IProduct[] = [
     atr: '2001405232',
     price: 23850,
     oldPrice: 0,
-    date: '2022-10-10T15:00:08.924Z',
+    date: new Date('2022-10-10T15:00:08.924Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3350,7 +3350,7 @@ export const products: IProduct[] = [
     atr: '2001396547',
     price: 23190,
     oldPrice: 0,
-    date: '2022-10-11T07:25:06.288Z',
+    date: new Date('2022-10-11T07:25:06.288Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3358,7 +3358,7 @@ export const products: IProduct[] = [
     atr: '2001405260',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-11T07:25:06.288Z',
+    date: new Date('2022-10-11T07:25:06.288Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Corall',
@@ -3366,7 +3366,7 @@ export const products: IProduct[] = [
     atr: '2001446624',
     price: 33990,
     oldPrice: 0,
-    date: '2022-10-11T07:30:10.690Z',
+    date: new Date('2022-10-11T07:30:10.690Z'),
   },
   {
     name: 'Диван Нумо Time Brown',
@@ -3374,7 +3374,7 @@ export const products: IProduct[] = [
     atr: '2001424379',
     price: 22990,
     oldPrice: 0,
-    date: '2022-10-11T07:30:10.690Z',
+    date: new Date('2022-10-11T07:30:10.690Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3382,7 +3382,7 @@ export const products: IProduct[] = [
     atr: '2001405297',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T07:30:10.690Z',
+    date: new Date('2022-10-11T07:30:10.690Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3390,7 +3390,7 @@ export const products: IProduct[] = [
     atr: '2001405292',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T07:30:10.690Z',
+    date: new Date('2022-10-11T07:30:10.690Z'),
   },
   {
     name: 'Диван Динс Мини Velvet Corall',
@@ -3398,7 +3398,7 @@ export const products: IProduct[] = [
     atr: '2001446625',
     price: 33990,
     oldPrice: 0,
-    date: '2022-10-11T07:40:07.863Z',
+    date: new Date('2022-10-11T07:40:07.863Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3406,7 +3406,7 @@ export const products: IProduct[] = [
     atr: '2001405298',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T07:40:07.863Z',
+    date: new Date('2022-10-11T07:40:07.863Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -3414,7 +3414,7 @@ export const products: IProduct[] = [
     atr: '2001417597',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T07:40:07.863Z',
+    date: new Date('2022-10-11T07:40:07.863Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3422,7 +3422,7 @@ export const products: IProduct[] = [
     atr: '2001405293',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T07:40:07.863Z',
+    date: new Date('2022-10-11T07:40:07.863Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3430,7 +3430,7 @@ export const products: IProduct[] = [
     atr: '2001405291',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T08:00:09.828Z',
+    date: new Date('2022-10-11T08:00:09.828Z'),
   },
   {
     name: 'Диван Бонс-Т',
@@ -3438,7 +3438,7 @@ export const products: IProduct[] = [
     atr: '2001330679',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-11T08:10:07.551Z',
+    date: new Date('2022-10-11T08:10:07.551Z'),
   },
   {
     name: 'Диван Марси',
@@ -3446,7 +3446,7 @@ export const products: IProduct[] = [
     atr: 'vr000000446',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-11T08:20:07.224Z',
+    date: new Date('2022-10-11T08:20:07.224Z'),
   },
   {
     name: 'Диван Льери',
@@ -3454,7 +3454,7 @@ export const products: IProduct[] = [
     atr: '2001393490',
     price: 59990,
     oldPrice: 0,
-    date: '2022-10-11T08:30:10.472Z',
+    date: new Date('2022-10-11T08:30:10.472Z'),
   },
   {
     name: 'Диван Офра',
@@ -3462,7 +3462,7 @@ export const products: IProduct[] = [
     atr: '2001408489',
     price: 29990,
     oldPrice: 0,
-    date: '2022-10-11T08:30:10.472Z',
+    date: new Date('2022-10-11T08:30:10.472Z'),
   },
   {
     name: 'Диван Слипсон Мини',
@@ -3470,7 +3470,7 @@ export const products: IProduct[] = [
     atr: '2001368394',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T08:40:08.419Z',
+    date: new Date('2022-10-11T08:40:08.419Z'),
   },
   {
     name: 'Диван Сваут',
@@ -3478,7 +3478,7 @@ export const products: IProduct[] = [
     atr: '2001134985',
     price: 49990,
     oldPrice: 0,
-    date: '2022-10-11T08:50:06.982Z',
+    date: new Date('2022-10-11T08:50:06.982Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3486,7 +3486,7 @@ export const products: IProduct[] = [
     atr: '2001405299',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T08:50:06.982Z',
+    date: new Date('2022-10-11T08:50:06.982Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -3494,7 +3494,7 @@ export const products: IProduct[] = [
     atr: 'sp000098158',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T10:30:09.234Z',
+    date: new Date('2022-10-11T10:30:09.234Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -3502,7 +3502,7 @@ export const products: IProduct[] = [
     atr: '2001441231',
     price: 33990,
     oldPrice: 0,
-    date: '2022-10-11T11:10:08.435Z',
+    date: new Date('2022-10-11T11:10:08.435Z'),
   },
   {
     name: 'Диван Ситено',
@@ -3510,7 +3510,7 @@ export const products: IProduct[] = [
     atr: '2001423601',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-11T11:10:08.435Z',
+    date: new Date('2022-10-11T11:10:08.435Z'),
   },
   {
     name: 'Диван Лачи Velvet Navy Blue',
@@ -3519,7 +3519,7 @@ export const products: IProduct[] = [
     atr: '2001111305',
     price: 14460,
     oldPrice: 30490,
-    date: '2022-10-13T09:20:09.299Z',
+    date: new Date('2022-10-13T09:20:09.299Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3527,7 +3527,7 @@ export const products: IProduct[] = [
     atr: '2001446805',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T07:30:10.986Z',
+    date: new Date('2022-10-14T07:30:10.986Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -3535,7 +3535,7 @@ export const products: IProduct[] = [
     atr: '2001446867',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T07:30:10.986Z',
+    date: new Date('2022-10-14T07:30:10.986Z'),
   },
   {
     name: 'Диван Кускен Vertiсal Ocean',
@@ -3543,7 +3543,7 @@ export const products: IProduct[] = [
     atr: '2001456279',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-14T07:35:07.022Z',
+    date: new Date('2022-10-14T07:35:07.022Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3551,7 +3551,7 @@ export const products: IProduct[] = [
     atr: '2001446802',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T07:40:09.680Z',
+    date: new Date('2022-10-14T07:40:09.680Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -3559,7 +3559,7 @@ export const products: IProduct[] = [
     atr: '2001446852',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T07:40:09.680Z',
+    date: new Date('2022-10-14T07:40:09.680Z'),
   },
   {
     name: 'Диван Ситено Мини Velvet Ocean',
@@ -3567,7 +3567,7 @@ export const products: IProduct[] = [
     atr: '2001446632',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T07:40:09.680Z',
+    date: new Date('2022-10-14T07:40:09.680Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -3575,7 +3575,7 @@ export const products: IProduct[] = [
     atr: '2001437977',
     price: 33690,
     oldPrice: 0,
-    date: '2022-10-14T07:50:07.116Z',
+    date: new Date('2022-10-14T07:50:07.116Z'),
   },
   {
     name: 'Диван Вероли Velvet Grafit',
@@ -3583,7 +3583,7 @@ export const products: IProduct[] = [
     atr: '2001437984',
     price: 33690,
     oldPrice: 0,
-    date: '2022-10-14T07:50:07.116Z',
+    date: new Date('2022-10-14T07:50:07.116Z'),
   },
   {
     name: 'Диван Маркфул Barhat Emerald',
@@ -3591,7 +3591,7 @@ export const products: IProduct[] = [
     atr: '2001419428',
     price: 44990,
     oldPrice: 0,
-    date: '2022-10-14T07:55:06.369Z',
+    date: new Date('2022-10-14T07:55:06.369Z'),
   },
   {
     name: 'Диван Менли Velvet Ocean',
@@ -3599,7 +3599,7 @@ export const products: IProduct[] = [
     atr: '2001377048',
     price: 27790,
     oldPrice: 0,
-    date: '2022-10-14T07:55:06.369Z',
+    date: new Date('2022-10-14T07:55:06.369Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -3607,7 +3607,7 @@ export const products: IProduct[] = [
     atr: '2001437981',
     price: 33690,
     oldPrice: 0,
-    date: '2022-10-14T08:00:10.280Z',
+    date: new Date('2022-10-14T08:00:10.280Z'),
   },
   {
     name: 'Диван Милкен Smart Tango',
@@ -3615,7 +3615,7 @@ export const products: IProduct[] = [
     atr: '2001454139',
     price: 29990,
     oldPrice: 0,
-    date: '2022-10-14T08:00:10.280Z',
+    date: new Date('2022-10-14T08:00:10.280Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -3623,7 +3623,7 @@ export const products: IProduct[] = [
     atr: '2001446659',
     price: 27990,
     oldPrice: 0,
-    date: '2022-10-14T08:10:07.443Z',
+    date: new Date('2022-10-14T08:10:07.443Z'),
   },
   {
     name: 'Диван Кускен Vertiсal Ocean',
@@ -3631,7 +3631,7 @@ export const products: IProduct[] = [
     atr: '2001441818',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-14T08:15:07.705Z',
+    date: new Date('2022-10-14T08:15:07.705Z'),
   },
   {
     name: 'Диван Ситено Мини',
@@ -3639,7 +3639,7 @@ export const products: IProduct[] = [
     atr: '2001424864',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T09:00:11.719Z',
+    date: new Date('2022-10-14T09:00:11.719Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -3647,7 +3647,7 @@ export const products: IProduct[] = [
     atr: '2001446804',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T09:10:08.334Z',
+    date: new Date('2022-10-14T09:10:08.334Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -3655,7 +3655,7 @@ export const products: IProduct[] = [
     atr: '2001446849',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T09:10:08.334Z',
+    date: new Date('2022-10-14T09:10:08.334Z'),
   },
   {
     name: 'Диван Кускен Vertiсal Ocean',
@@ -3663,7 +3663,7 @@ export const products: IProduct[] = [
     atr: '2001456280',
     price: 32990,
     oldPrice: 0,
-    date: '2022-10-14T09:20:10.483Z',
+    date: new Date('2022-10-14T09:20:10.483Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -3671,7 +3671,7 @@ export const products: IProduct[] = [
     atr: '2001437979',
     price: 33690,
     oldPrice: 0,
-    date: '2022-10-14T10:10:09.523Z',
+    date: new Date('2022-10-14T10:10:09.523Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3679,7 +3679,7 @@ export const products: IProduct[] = [
     atr: '2001446803',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T11:10:08.999Z',
+    date: new Date('2022-10-14T11:10:08.999Z'),
   },
   {
     name: 'Диван Ситено Barhat Emerald',
@@ -3687,7 +3687,7 @@ export const products: IProduct[] = [
     atr: '2001446800',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-14T12:20:10.739Z',
+    date: new Date('2022-10-14T12:20:10.739Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -3695,7 +3695,7 @@ export const products: IProduct[] = [
     atr: '2001437980',
     price: 33690,
     oldPrice: 0,
-    date: '2022-10-14T13:10:09.009Z',
+    date: new Date('2022-10-14T13:10:09.009Z'),
   },
   {
     name: 'Диван Сан-Паулу',
@@ -3703,7 +3703,7 @@ export const products: IProduct[] = [
     atr: '2000711677',
     price: 16400,
     oldPrice: 0,
-    date: '2022-10-14T13:40:09.853Z',
+    date: new Date('2022-10-14T13:40:09.853Z'),
   },
   {
     name: 'Диван Ситено',
@@ -3711,7 +3711,7 @@ export const products: IProduct[] = [
     atr: '2001437101',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-17T09:40:08.866Z',
+    date: new Date('2022-10-17T09:40:08.866Z'),
   },
   {
     name: 'Диван Ситено',
@@ -3719,7 +3719,7 @@ export const products: IProduct[] = [
     atr: '2001437099',
     price: 39990,
     oldPrice: 0,
-    date: '2022-10-17T09:50:09.810Z',
+    date: new Date('2022-10-17T09:50:09.810Z'),
   },
   {
     name: 'Диван Маркфул',
@@ -3727,7 +3727,7 @@ export const products: IProduct[] = [
     atr: '2001351814',
     price: 44990,
     oldPrice: 0,
-    date: '2022-10-17T10:10:09.878Z',
+    date: new Date('2022-10-17T10:10:09.878Z'),
   },
   {
     name: 'Диван Милкен',
@@ -3735,7 +3735,7 @@ export const products: IProduct[] = [
     atr: '2001160103',
     price: 29990,
     oldPrice: 0,
-    date: '2022-10-17T10:10:09.878Z',
+    date: new Date('2022-10-17T10:10:09.878Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Light',
@@ -3743,7 +3743,7 @@ export const products: IProduct[] = [
     atr: 'ek000008510',
     price: 34990,
     oldPrice: 0,
-    date: '2022-10-17T11:00:09.709Z',
+    date: new Date('2022-10-17T11:00:09.709Z'),
   },
   {
     name: 'Диван Лилле Velvet Emerald',
@@ -3751,7 +3751,7 @@ export const products: IProduct[] = [
     atr: '2001376974',
     price: 24360,
     oldPrice: 0,
-    date: '2022-10-17T11:00:09.709Z',
+    date: new Date('2022-10-17T11:00:09.709Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3759,7 +3759,7 @@ export const products: IProduct[] = [
     atr: '2001396549',
     price: 19540,
     oldPrice: 0,
-    date: '2022-10-17T11:00:09.709Z',
+    date: new Date('2022-10-17T11:00:09.709Z'),
   },
   {
     name: 'Диван Нумо Velvet Grey',
@@ -3767,7 +3767,7 @@ export const products: IProduct[] = [
     atr: '2001396617',
     price: 15980,
     oldPrice: 0,
-    date: '2022-10-17T11:00:09.709Z',
+    date: new Date('2022-10-17T11:00:09.709Z'),
   },
   {
     name: 'Диван Нумо Мини Sherst Blue',
@@ -3775,7 +3775,7 @@ export const products: IProduct[] = [
     atr: '2001414843',
     price: 12590,
     oldPrice: 0,
-    date: '2022-10-17T11:00:09.709Z',
+    date: new Date('2022-10-17T11:00:09.709Z'),
   },
   {
     name: 'Диван Бонс-Т Happy Deep Ocean',
@@ -3783,7 +3783,7 @@ export const products: IProduct[] = [
     atr: '2001373392',
     price: 18710,
     oldPrice: 0,
-    date: '2022-10-17T11:05:05.957Z',
+    date: new Date('2022-10-17T11:05:05.957Z'),
   },
   {
     name: 'Диван Динс Мини Barhat Blue',
@@ -3791,7 +3791,7 @@ export const products: IProduct[] = [
     atr: '2001396468',
     price: 20230,
     oldPrice: 0,
-    date: '2022-10-17T11:05:05.957Z',
+    date: new Date('2022-10-17T11:05:05.957Z'),
   },
   {
     name: 'Диван Кускен Vertiсal Ocean',
@@ -3799,7 +3799,7 @@ export const products: IProduct[] = [
     atr: '2001405557',
     price: 21090,
     oldPrice: 0,
-    date: '2022-10-17T11:05:05.957Z',
+    date: new Date('2022-10-17T11:05:05.957Z'),
   },
   {
     name: 'Диван Милкен Time Corall',
@@ -3807,7 +3807,7 @@ export const products: IProduct[] = [
     atr: 'ek000003378',
     price: 18880,
     oldPrice: 0,
-    date: '2022-10-17T11:10:07.760Z',
+    date: new Date('2022-10-17T11:10:07.760Z'),
   },
   {
     name: 'Диван Нумо Velvet Grey',
@@ -3815,7 +3815,7 @@ export const products: IProduct[] = [
     atr: '2001367447',
     price: 15980,
     oldPrice: 0,
-    date: '2022-10-17T11:15:08.166Z',
+    date: new Date('2022-10-17T11:15:08.166Z'),
   },
   {
     name: 'Диван Ридан',
@@ -3823,7 +3823,7 @@ export const products: IProduct[] = [
     atr: 'ek000007381',
     price: 54990,
     oldPrice: 0,
-    date: '2022-10-17T15:50:11.583Z',
+    date: new Date('2022-10-17T15:50:11.583Z'),
   },
   {
     name: 'Диван Динен',
@@ -3831,7 +3831,7 @@ export const products: IProduct[] = [
     atr: 'vl000018476',
     price: 27990,
     oldPrice: 0,
-    date: '2022-10-18T07:10:09.652Z',
+    date: new Date('2022-10-18T07:10:09.652Z'),
   },
   {
     name: 'Диван Виена',
@@ -3839,7 +3839,7 @@ export const products: IProduct[] = [
     atr: 'ek000004533',
     price: 47990,
     oldPrice: 0,
-    date: '2022-10-18T15:00:14.361Z',
+    date: new Date('2022-10-18T15:00:14.361Z'),
   },
   {
     name: 'Диван Кускен Velvet Yellow',
@@ -3847,7 +3847,7 @@ export const products: IProduct[] = [
     atr: 'ek000004392',
     price: 19340,
     oldPrice: 0,
-    date: '2022-10-19T14:20:08.881Z',
+    date: new Date('2022-10-19T14:20:08.881Z'),
   },
   {
     name: 'Диван Лофт',
@@ -3855,7 +3855,7 @@ export const products: IProduct[] = [
     atr: '2001392618',
     price: 22630,
     oldPrice: 0,
-    date: '2022-10-20T07:50:08.048Z',
+    date: new Date('2022-10-20T07:50:08.048Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3863,7 +3863,7 @@ export const products: IProduct[] = [
     atr: '2001456582',
     price: 30990,
     oldPrice: 0,
-    date: '2022-10-20T12:15:11.826Z',
+    date: new Date('2022-10-20T12:15:11.826Z'),
   },
   {
     name: 'Диван Орнен',
@@ -3871,7 +3871,7 @@ export const products: IProduct[] = [
     atr: 'vl000019658',
     price: 55990,
     oldPrice: 0,
-    date: '2022-10-20T13:30:10.897Z',
+    date: new Date('2022-10-20T13:30:10.897Z'),
   },
   {
     name: 'Диван Льери',
@@ -3879,7 +3879,7 @@ export const products: IProduct[] = [
     atr: '2001455568',
     price: 62990,
     oldPrice: 0,
-    date: '2022-10-20T13:40:10.549Z',
+    date: new Date('2022-10-20T13:40:10.549Z'),
   },
   {
     name: 'Диван Кускен',
@@ -3887,7 +3887,7 @@ export const products: IProduct[] = [
     atr: 'sp000098647',
     price: 36990,
     oldPrice: 0,
-    date: '2022-10-20T14:00:11.282Z',
+    date: new Date('2022-10-20T14:00:11.282Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3895,7 +3895,7 @@ export const products: IProduct[] = [
     atr: '2001456584',
     price: 30990,
     oldPrice: 0,
-    date: '2022-10-20T14:00:11.283Z',
+    date: new Date('2022-10-20T14:00:11.283Z'),
   },
   {
     name: 'Диван Лофт Velvet Grey',
@@ -3903,7 +3903,7 @@ export const products: IProduct[] = [
     atr: '2001456583',
     price: 30990,
     oldPrice: 0,
-    date: '2022-10-20T14:05:05.218Z',
+    date: new Date('2022-10-20T14:05:05.218Z'),
   },
   {
     name: 'Диван Льери Мини Velvet Atlantic',
@@ -3911,7 +3911,7 @@ export const products: IProduct[] = [
     atr: '2001407153',
     price: 21490,
     oldPrice: 0,
-    date: '2022-10-21T06:10:08.502Z',
+    date: new Date('2022-10-21T06:10:08.502Z'),
   },
   {
     name: 'Диван Офра Happy Yellow',
@@ -3919,7 +3919,7 @@ export const products: IProduct[] = [
     atr: '2001403747',
     price: 16190,
     oldPrice: 0,
-    date: '2022-10-21T06:10:08.502Z',
+    date: new Date('2022-10-21T06:10:08.502Z'),
   },
   {
     name: 'Диван Динс Мини Barhat Emerald',
@@ -3927,7 +3927,7 @@ export const products: IProduct[] = [
     atr: '2001429318',
     price: 20790,
     oldPrice: 0,
-    date: '2022-10-21T06:15:07.497Z',
+    date: new Date('2022-10-21T06:15:07.497Z'),
   },
   {
     name: 'Диван Кускен Velvet Yellow',
@@ -3935,7 +3935,7 @@ export const products: IProduct[] = [
     atr: '2001405911',
     price: 19390,
     oldPrice: 0,
-    date: '2022-10-21T06:15:07.497Z',
+    date: new Date('2022-10-21T06:15:07.497Z'),
   },
   {
     name: 'Диван Льери',
@@ -3944,7 +3944,7 @@ export const products: IProduct[] = [
     atr: 'kr000001810',
     price: 59990,
     oldPrice: 74990,
-    date: '2022-10-22T18:20:10.739Z',
+    date: new Date('2022-10-22T18:20:10.739Z'),
   },
   {
     name: 'Диван Милкен',
@@ -3953,7 +3953,7 @@ export const products: IProduct[] = [
     atr: 'ek000004007',
     price: 21740,
     oldPrice: 38990,
-    date: '2022-10-24T07:10:10.110Z',
+    date: new Date('2022-10-24T07:10:10.110Z'),
   },
   {
     name: 'Диван Кареро',
@@ -3962,7 +3962,7 @@ export const products: IProduct[] = [
     atr: 'ek000005099',
     price: 29660,
     oldPrice: 64990,
-    date: '2022-10-24T07:15:08.491Z',
+    date: new Date('2022-10-24T07:15:08.491Z'),
   },
   {
     name: 'Диван Сваут',
@@ -3971,7 +3971,7 @@ export const products: IProduct[] = [
     atr: '2001447448',
     price: 55990,
     oldPrice: 65990,
-    date: '2022-10-24T12:40:11.726Z',
+    date: new Date('2022-10-24T12:40:11.726Z'),
   },
   {
     name: 'Диван Маркфул',
@@ -3980,7 +3980,7 @@ export const products: IProduct[] = [
     atr: 'sp000097412',
     price: 50990,
     oldPrice: 65990,
-    date: '2022-10-24T12:50:10.159Z',
+    date: new Date('2022-10-24T12:50:10.159Z'),
   },
   {
     name: 'Диван Милкен',
@@ -3989,7 +3989,7 @@ export const products: IProduct[] = [
     atr: '2001403041',
     price: 18490,
     oldPrice: 38990,
-    date: '2022-10-24T13:10:10.676Z',
+    date: new Date('2022-10-24T13:10:10.676Z'),
   },
   {
     name: 'Диван Ситено Мини',
@@ -3998,7 +3998,7 @@ export const products: IProduct[] = [
     atr: '2001449843',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-10-24T19:10:08.910Z',
+    date: new Date('2022-10-24T19:10:08.910Z'),
   },
   {
     name: 'Диван Фолс Velvet Coral',
@@ -4007,7 +4007,7 @@ export const products: IProduct[] = [
     atr: '2001437989',
     price: 30090,
     oldPrice: 52990,
-    date: '2022-10-27T07:25:08.900Z',
+    date: new Date('2022-10-27T07:25:08.900Z'),
   },
   {
     name: 'Диван Фолс Velvet Light Grey',
@@ -4016,7 +4016,7 @@ export const products: IProduct[] = [
     atr: '2001437991',
     price: 30090,
     oldPrice: 44990,
-    date: '2022-10-27T09:40:10.581Z',
+    date: new Date('2022-10-27T09:40:10.581Z'),
   },
   {
     name: 'Диван Фолс Velvet Light Grey',
@@ -4025,7 +4025,7 @@ export const products: IProduct[] = [
     atr: '2001437990',
     price: 30090,
     oldPrice: 44990,
-    date: '2022-10-27T09:55:09.368Z',
+    date: new Date('2022-10-27T09:55:09.368Z'),
   },
   {
     name: 'Диван Нумо Velvet Grey',
@@ -4034,7 +4034,7 @@ export const products: IProduct[] = [
     atr: 'ek000004352',
     price: 15980,
     oldPrice: 34990,
-    date: '2022-10-29T17:05:06.082Z',
+    date: new Date('2022-10-29T17:05:06.082Z'),
   },
   {
     name: 'Диван Эби',
@@ -4043,7 +4043,7 @@ export const products: IProduct[] = [
     atr: '2001437093',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-10-30T05:10:10.004Z',
+    date: new Date('2022-10-30T05:10:10.004Z'),
   },
   {
     name: 'Диван Эби',
@@ -4052,7 +4052,7 @@ export const products: IProduct[] = [
     atr: '2001437095',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-10-30T09:10:09.718Z',
+    date: new Date('2022-10-30T09:10:09.718Z'),
   },
   {
     name: 'Диван Эби',
@@ -4061,7 +4061,7 @@ export const products: IProduct[] = [
     atr: '2001437097',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-10-30T11:20:09.548Z',
+    date: new Date('2022-10-30T11:20:09.548Z'),
   },
   {
     name: 'Диван Эби',
@@ -4070,7 +4070,7 @@ export const products: IProduct[] = [
     atr: '2001437094',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-11-07T12:55:05.225Z',
+    date: new Date('2022-11-07T12:55:05.225Z'),
   },
   {
     name: 'Диван Эби Мини',
@@ -4079,7 +4079,7 @@ export const products: IProduct[] = [
     atr: 'kr000001460',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-11-10T10:25:07.012Z',
+    date: new Date('2022-11-10T10:25:07.012Z'),
   },
   {
     name: 'Диван Льери Barhat Emerald',
@@ -4088,7 +4088,7 @@ export const products: IProduct[] = [
     atr: '2001217679',
     price: 54990,
     oldPrice: 69990,
-    date: '2022-11-10T10:30:14.984Z',
+    date: new Date('2022-11-10T10:30:14.984Z'),
   },
   {
     name: 'Диван Честер-3',
@@ -4096,7 +4096,7 @@ export const products: IProduct[] = [
     atr: '2001304145',
     price: 41990,
     oldPrice: 0,
-    date: '2022-11-11T09:40:11.203Z',
+    date: new Date('2022-11-11T09:40:11.203Z'),
   },
   {
     name: 'Диван Байвин',
@@ -4105,7 +4105,7 @@ export const products: IProduct[] = [
     atr: '2001429865',
     price: 57990,
     oldPrice: 67990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Байвин',
@@ -4114,7 +4114,7 @@ export const products: IProduct[] = [
     atr: '2001408338',
     price: 59990,
     oldPrice: 67990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Вернон Velvet Emerald',
@@ -4123,7 +4123,7 @@ export const products: IProduct[] = [
     atr: '2001236467',
     price: 28620,
     oldPrice: 49990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Вероли Velvet Corall',
@@ -4132,7 +4132,7 @@ export const products: IProduct[] = [
     atr: '2001437978',
     price: 33690,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Вероли Velvet Emerald',
@@ -4141,7 +4141,7 @@ export const products: IProduct[] = [
     atr: '2001437983',
     price: 33690,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Вероли Velvet Plum',
@@ -4150,7 +4150,7 @@ export const products: IProduct[] = [
     atr: '2001437985',
     price: 33690,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Виена',
@@ -4159,7 +4159,7 @@ export const products: IProduct[] = [
     atr: '2000505369',
     price: 21360,
     oldPrice: 53990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Виена',
@@ -4168,7 +4168,7 @@ export const products: IProduct[] = [
     atr: 'kr000000732',
     price: 47990,
     oldPrice: 53990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Динен',
@@ -4177,7 +4177,7 @@ export const products: IProduct[] = [
     atr: 'kz000003380',
     price: 27990,
     oldPrice: 40990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -4186,7 +4186,7 @@ export const products: IProduct[] = [
     atr: '2001446660',
     price: 27990,
     oldPrice: 39990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Динс',
@@ -4195,7 +4195,7 @@ export const products: IProduct[] = [
     atr: 'kr000000003',
     price: 37990,
     oldPrice: 47990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Динс Sherst Blue',
@@ -4204,7 +4204,7 @@ export const products: IProduct[] = [
     atr: '2001405374',
     price: 37990,
     oldPrice: 39990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Кареро',
@@ -4213,7 +4213,7 @@ export const products: IProduct[] = [
     atr: '2001259867',
     price: 52990,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Ларонсо',
@@ -4222,7 +4222,7 @@ export const products: IProduct[] = [
     atr: '2001429878',
     price: 59990,
     oldPrice: 69990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Ларонсо',
@@ -4231,7 +4231,7 @@ export const products: IProduct[] = [
     atr: '2001415156',
     price: 54990,
     oldPrice: 69990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Emerald',
@@ -4240,7 +4240,7 @@ export const products: IProduct[] = [
     atr: '2001404909',
     price: 54990,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.295Z',
+    date: new Date('2022-11-14T14:45:07.295Z'),
   },
   {
     name: 'Диван Ларонсо Velvet Emerald',
@@ -4249,7 +4249,7 @@ export const products: IProduct[] = [
     atr: '2001412282',
     price: 49990,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Лиент Velvet Grafit',
@@ -4258,7 +4258,7 @@ export const products: IProduct[] = [
     atr: '2001296786',
     price: 44990,
     oldPrice: 62990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Лиент Velvet Grey',
@@ -4267,7 +4267,7 @@ export const products: IProduct[] = [
     atr: '2001371527',
     price: 44990,
     oldPrice: 62990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Лилле Velvet Terra',
@@ -4276,7 +4276,7 @@ export const products: IProduct[] = [
     atr: '2001369042',
     price: 24360,
     oldPrice: 42990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Линс',
@@ -4285,7 +4285,7 @@ export const products: IProduct[] = [
     atr: '2001413341',
     price: 27990,
     oldPrice: 33990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Лофт',
@@ -4293,7 +4293,7 @@ export const products: IProduct[] = [
     atr: 'kz000003493',
     price: 49990,
     oldPrice: 0,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Льери Barhat Gold',
@@ -4302,7 +4302,7 @@ export const products: IProduct[] = [
     atr: '2001311614',
     price: 36330,
     oldPrice: 69990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Льери Мини',
@@ -4311,7 +4311,7 @@ export const products: IProduct[] = [
     atr: '2001436973',
     price: 49990,
     oldPrice: 54990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Маркфул',
@@ -4320,7 +4320,7 @@ export const products: IProduct[] = [
     atr: 'kr000001060',
     price: 44990,
     oldPrice: 65990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Марси Velvet Coral',
@@ -4329,7 +4329,7 @@ export const products: IProduct[] = [
     atr: '2001402950',
     price: 34990,
     oldPrice: 44990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Масио 160 Velvet Light Grey',
@@ -4338,7 +4338,7 @@ export const products: IProduct[] = [
     atr: '2001236497',
     price: 35997,
     oldPrice: 119990,
-    date: '2022-11-23T12:20:09.681Z',
+    date: new Date('2022-11-23T12:20:09.681Z'),
   },
   {
     name: 'Диван Масио Velvet Emerald',
@@ -4347,7 +4347,7 @@ export const products: IProduct[] = [
     atr: '2001092092',
     price: 28497,
     oldPrice: 94990,
-    date: '2022-11-23T12:00:14.298Z',
+    date: new Date('2022-11-23T12:00:14.298Z'),
   },
   {
     name: 'Диван Масио Velvet Grey',
@@ -4356,7 +4356,7 @@ export const products: IProduct[] = [
     atr: '2001236502',
     price: 35997,
     oldPrice: 119990,
-    date: '2022-11-23T12:20:09.681Z',
+    date: new Date('2022-11-23T12:20:09.681Z'),
   },
   {
     name: 'Диван Масио Velvet Plum',
@@ -4365,7 +4365,7 @@ export const products: IProduct[] = [
     atr: '2001091744',
     price: 28497,
     oldPrice: 94990,
-    date: '2022-11-23T19:00:12.754Z',
+    date: new Date('2022-11-23T19:00:12.754Z'),
   },
   {
     name: 'Диван Масио Velvet Plum',
@@ -4374,7 +4374,7 @@ export const products: IProduct[] = [
     atr: '2001091744',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Менли Velvet Yellow',
@@ -4382,7 +4382,7 @@ export const products: IProduct[] = [
     atr: '2000963555',
     price: 21890,
     oldPrice: 0,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Мисл',
@@ -4391,7 +4391,7 @@ export const products: IProduct[] = [
     atr: '2001432315',
     price: 42990,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Мосс Happy Ocean',
@@ -4400,7 +4400,7 @@ export const products: IProduct[] = [
     atr: '2001338454',
     price: 36090,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Напа Velvet Emerald',
@@ -4409,7 +4409,7 @@ export const products: IProduct[] = [
     atr: '2001359109',
     price: 28930,
     oldPrice: 49990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Остин 160 Velvet Emerald',
@@ -4418,7 +4418,7 @@ export const products: IProduct[] = [
     atr: '2001296860',
     price: 28890,
     oldPrice: 42990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Остин 160 Velvet Yellow',
@@ -4427,7 +4427,7 @@ export const products: IProduct[] = [
     atr: '2001296864',
     price: 29990,
     oldPrice: 42990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Остин Velvet Blue',
@@ -4436,7 +4436,7 @@ export const products: IProduct[] = [
     atr: '2001338489',
     price: 27090,
     oldPrice: 39990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Остин Velvet Brown',
@@ -4445,7 +4445,7 @@ export const products: IProduct[] = [
     atr: '2001296868',
     price: 27090,
     oldPrice: 39990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ридан',
@@ -4454,7 +4454,7 @@ export const products: IProduct[] = [
     atr: 'pr000000041',
     price: 36380,
     oldPrice: 84990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ридан',
@@ -4463,7 +4463,7 @@ export const products: IProduct[] = [
     atr: '2001347029',
     price: 35330,
     oldPrice: 74990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ридан Barhat Gold',
@@ -4472,7 +4472,7 @@ export const products: IProduct[] = [
     atr: '2001351813',
     price: 35330,
     oldPrice: 69990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ридан Barhat Rose',
@@ -4481,7 +4481,7 @@ export const products: IProduct[] = [
     atr: '2001385791',
     price: 35330,
     oldPrice: 69990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ридан Infinity Blue',
@@ -4490,7 +4490,7 @@ export const products: IProduct[] = [
     atr: '2001128954',
     price: 48430,
     oldPrice: 99990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сайле',
@@ -4499,7 +4499,7 @@ export const products: IProduct[] = [
     atr: 'sp000097569',
     price: 54990,
     oldPrice: 74990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сайле',
@@ -4508,7 +4508,7 @@ export const products: IProduct[] = [
     atr: 'vl000016959',
     price: 57990,
     oldPrice: 74990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сайле Barhat Grey',
@@ -4517,7 +4517,7 @@ export const products: IProduct[] = [
     atr: 'vl000011464',
     price: 57990,
     oldPrice: 74990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сайле Barhat Grey',
@@ -4526,7 +4526,7 @@ export const products: IProduct[] = [
     atr: '2001149002',
     price: 38360,
     oldPrice: 74990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сваут',
@@ -4535,7 +4535,7 @@ export const products: IProduct[] = [
     atr: '2001358900',
     price: 49990,
     oldPrice: 65990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Сваут',
@@ -4544,7 +4544,7 @@ export const products: IProduct[] = [
     atr: 'vl000015585',
     price: 44990,
     oldPrice: 65990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ситено',
@@ -4553,7 +4553,7 @@ export const products: IProduct[] = [
     atr: '2001393038',
     price: 25190,
     oldPrice: 53990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ситено',
@@ -4562,7 +4562,7 @@ export const products: IProduct[] = [
     atr: '2001437100',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ситено Barhat Amber',
@@ -4571,7 +4571,7 @@ export const products: IProduct[] = [
     atr: 'vl000011481',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -4580,7 +4580,7 @@ export const products: IProduct[] = [
     atr: '2001405382',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Ситено Мини Velvet Ocean',
@@ -4589,7 +4589,7 @@ export const products: IProduct[] = [
     atr: '2001446633',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Спейс Gene Grey',
@@ -4598,7 +4598,7 @@ export const products: IProduct[] = [
     atr: '2001333278',
     price: 47990,
     oldPrice: 59990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Спейс Soft Yellow',
@@ -4607,7 +4607,7 @@ export const products: IProduct[] = [
     atr: '2000839862',
     price: 31860,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Brown',
@@ -4616,7 +4616,7 @@ export const products: IProduct[] = [
     atr: '2001296899',
     price: 29490,
     oldPrice: 42990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Brown',
@@ -4625,7 +4625,7 @@ export const products: IProduct[] = [
     atr: '2001444082',
     price: 27990,
     oldPrice: 42990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Фолс 160 Velvet Light',
@@ -4634,7 +4634,7 @@ export const products: IProduct[] = [
     atr: '2001382282',
     price: 30450,
     oldPrice: 59990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Фолс Velvet Light',
@@ -4643,7 +4643,7 @@ export const products: IProduct[] = [
     atr: '2001338521',
     price: 30450,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Фолс Velvet Ocean',
@@ -4652,7 +4652,7 @@ export const products: IProduct[] = [
     atr: '2001296911',
     price: 36090,
     oldPrice: 52990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Эби',
@@ -4661,7 +4661,7 @@ export const products: IProduct[] = [
     atr: '2001385151',
     price: 59990,
     oldPrice: 64990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Эби Buffalo Brown',
@@ -4670,7 +4670,7 @@ export const products: IProduct[] = [
     atr: '2001145110',
     price: 47990,
     oldPrice: 72990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Льери',
@@ -4679,7 +4679,7 @@ export const products: IProduct[] = [
     atr: '2001140547',
     price: 35350,
     oldPrice: 79990,
-    date: '2022-11-14T14:45:07.296Z',
+    date: new Date('2022-11-14T14:45:07.296Z'),
   },
   {
     name: 'Диван Вероли Velvet Plum',
@@ -4688,7 +4688,7 @@ export const products: IProduct[] = [
     atr: '2001188831',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-11-14T14:55:05.935Z',
+    date: new Date('2022-11-14T14:55:05.935Z'),
   },
   {
     name: 'Диван Динс',
@@ -4697,7 +4697,7 @@ export const products: IProduct[] = [
     atr: '2001394786',
     price: 37990,
     oldPrice: 47990,
-    date: '2022-11-14T14:55:05.935Z',
+    date: new Date('2022-11-14T14:55:05.935Z'),
   },
   {
     name: 'Диван Динс Sherst Blue',
@@ -4706,7 +4706,7 @@ export const products: IProduct[] = [
     atr: '2001405372',
     price: 37990,
     oldPrice: 39990,
-    date: '2022-11-14T14:55:05.935Z',
+    date: new Date('2022-11-14T14:55:05.935Z'),
   },
   {
     name: 'Диван Масио Velvet Emerald',
@@ -4715,7 +4715,7 @@ export const products: IProduct[] = [
     atr: '2001092095',
     price: 28497,
     oldPrice: 94990,
-    date: '2022-11-23T12:40:09.197Z',
+    date: new Date('2022-11-23T12:40:09.197Z'),
   },
   {
     name: 'Диван Мисл',
@@ -4724,7 +4724,7 @@ export const products: IProduct[] = [
     atr: '2001406281',
     price: 42990,
     oldPrice: 64990,
-    date: '2022-11-14T15:10:11.440Z',
+    date: new Date('2022-11-14T15:10:11.440Z'),
   },
   {
     name: 'Диван Остин Velvet Blue',
@@ -4733,7 +4733,7 @@ export const products: IProduct[] = [
     atr: '2001338490',
     price: 27090,
     oldPrice: 39990,
-    date: '2022-11-14T15:10:11.440Z',
+    date: new Date('2022-11-14T15:10:11.440Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -4742,7 +4742,7 @@ export const products: IProduct[] = [
     atr: '2001446851',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-14T15:10:11.440Z',
+    date: new Date('2022-11-14T15:10:11.440Z'),
   },
   {
     name: 'Диван Ситено Мини',
@@ -4751,7 +4751,7 @@ export const products: IProduct[] = [
     atr: '2001365441',
     price: 39990,
     oldPrice: 54990,
-    date: '2022-11-14T15:10:11.440Z',
+    date: new Date('2022-11-14T15:10:11.440Z'),
   },
   {
     name: 'Диван Торонто 160 Velvet Light',
@@ -4760,7 +4760,7 @@ export const products: IProduct[] = [
     atr: '2001338519',
     price: 29490,
     oldPrice: 42990,
-    date: '2022-11-14T15:10:11.440Z',
+    date: new Date('2022-11-14T15:10:11.440Z'),
   },
   {
     name: 'Диван Байвин',
@@ -4769,7 +4769,7 @@ export const products: IProduct[] = [
     atr: 'vr000000327',
     price: 59990,
     oldPrice: 67990,
-    date: '2022-11-14T15:20:12.160Z',
+    date: new Date('2022-11-14T15:20:12.160Z'),
   },
   {
     name: 'Диван Масио Velvet Grey',
@@ -4778,7 +4778,7 @@ export const products: IProduct[] = [
     atr: '2001236501',
     price: 35997,
     oldPrice: 119990,
-    date: '2022-11-23T12:00:14.298Z',
+    date: new Date('2022-11-23T12:00:14.298Z'),
   },
   {
     name: 'Диван Слипсон',
@@ -4787,7 +4787,7 @@ export const products: IProduct[] = [
     atr: '2001219883',
     price: 47990,
     oldPrice: 57990,
-    date: '2022-11-14T15:30:12.262Z',
+    date: new Date('2022-11-14T15:30:12.262Z'),
   },
   {
     name: 'Диван Вероли Velvet Emerald',
@@ -4796,7 +4796,7 @@ export const products: IProduct[] = [
     atr: '2001437982',
     price: 33690,
     oldPrice: 52990,
-    date: '2022-11-14T15:35:07.136Z',
+    date: new Date('2022-11-14T15:35:07.136Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -4805,7 +4805,7 @@ export const products: IProduct[] = [
     atr: '2001379846',
     price: 32990,
     oldPrice: 39990,
-    date: '2022-11-14T15:35:07.136Z',
+    date: new Date('2022-11-14T15:35:07.136Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -4814,7 +4814,7 @@ export const products: IProduct[] = [
     atr: 'kr000001509',
     price: 37990,
     oldPrice: 49990,
-    date: '2022-11-14T15:35:07.136Z',
+    date: new Date('2022-11-14T15:35:07.136Z'),
   },
   {
     name: 'Диван Вероли Velvet Plum',
@@ -4823,7 +4823,7 @@ export const products: IProduct[] = [
     atr: '2001188833',
     price: 32590,
     oldPrice: 52990,
-    date: '2022-11-14T16:35:06.497Z',
+    date: new Date('2022-11-14T16:35:06.497Z'),
   },
   {
     name: 'Диван Масио Velvet Emerald',
@@ -4832,7 +4832,7 @@ export const products: IProduct[] = [
     atr: '2001092094',
     price: 32590,
     oldPrice: 49990,
-    date: '2022-11-14T16:40:10.505Z',
+    date: new Date('2022-11-14T16:40:10.505Z'),
   },
   {
     name: 'Диван Мосс Happy Ocean',
@@ -4841,7 +4841,7 @@ export const products: IProduct[] = [
     atr: '2001338456',
     price: 36090,
     oldPrice: 52990,
-    date: '2022-11-14T18:40:10.618Z',
+    date: new Date('2022-11-14T18:40:10.618Z'),
   },
   {
     name: 'Диван Ситено Barhat Blue',
@@ -4850,7 +4850,7 @@ export const products: IProduct[] = [
     atr: '2001405383',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-14T18:40:10.618Z',
+    date: new Date('2022-11-14T18:40:10.618Z'),
   },
   {
     name: 'Диван Эби',
@@ -4859,7 +4859,7 @@ export const products: IProduct[] = [
     atr: '2001437096',
     price: 47990,
     oldPrice: 64990,
-    date: '2022-11-14T18:40:10.618Z',
+    date: new Date('2022-11-14T18:40:10.618Z'),
   },
   {
     name: 'Диван Динен Velvet Yellow',
@@ -4868,7 +4868,7 @@ export const products: IProduct[] = [
     atr: '2001372885',
     price: 32990,
     oldPrice: 39990,
-    date: '2022-11-15T05:15:09.823Z',
+    date: new Date('2022-11-15T05:15:09.823Z'),
   },
   {
     name: 'Диван Ситено',
@@ -4877,7 +4877,7 @@ export const products: IProduct[] = [
     atr: '2001437102',
     price: 39990,
     oldPrice: 53990,
-    date: '2022-11-15T05:15:09.823Z',
+    date: new Date('2022-11-15T05:15:09.823Z'),
   },
   {
     name: 'Диван Ситено Barhat Salmon',
@@ -4886,7 +4886,7 @@ export const products: IProduct[] = [
     atr: '2001446850',
     price: 39990,
     oldPrice: 49990,
-    date: '2022-11-15T07:40:08.457Z',
+    date: new Date('2022-11-15T07:40:08.457Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -4895,7 +4895,7 @@ export const products: IProduct[] = [
     atr: 'kr000001510',
     price: 37990,
     oldPrice: 49990,
-    date: '2022-11-15T07:45:07.568Z',
+    date: new Date('2022-11-15T07:45:07.568Z'),
   },
   {
     name: 'Диван Шилдс',
@@ -4903,7 +4903,7 @@ export const products: IProduct[] = [
     atr: '2001173543',
     price: 44290,
     oldPrice: 0,
-    date: '2022-11-18T10:00:09.588Z',
+    date: new Date('2022-11-18T10:00:09.588Z'),
   },
   {
     name: 'Диван Кускен Velvet Yellow',
@@ -4911,7 +4911,7 @@ export const products: IProduct[] = [
     atr: '2001074444',
     price: 20390,
     oldPrice: 0,
-    date: '2022-11-18T10:00:09.588Z',
+    date: new Date('2022-11-18T10:00:09.588Z'),
   },
   {
     name: 'Диван Мира Velvet Latte',
@@ -4920,7 +4920,7 @@ export const products: IProduct[] = [
     atr: '2001377832',
     price: 26990,
     oldPrice: 39990,
-    date: '2022-11-18T13:45:09.722Z',
+    date: new Date('2022-11-18T13:45:09.722Z'),
   },
   {
     name: 'Диван Динс Мини',
@@ -4929,6 +4929,6 @@ export const products: IProduct[] = [
     atr: 'ek000004858',
     price: 34990,
     oldPrice: 49990,
-    date: '2022-11-21T13:35:06.428Z',
+    date: new Date('2022-11-21T13:35:06.428Z'),
   },
 ];

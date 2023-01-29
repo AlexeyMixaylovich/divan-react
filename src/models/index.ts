@@ -5,5 +5,10 @@ export interface IProduct {
   atr: string;
   price: number;
   oldPrice: number;
-  date: string;
+  date: Date;
+}
+
+export interface ICategory {
+  name: string;
+  code: string
 }
