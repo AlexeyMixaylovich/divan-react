@@ -29,7 +29,6 @@ export function ProductsPage() {
 
       <Grid
         container
-        // spacing={{ xs: 2, md: 3 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
         {products.map((product) => (
@@ -55,7 +54,8 @@ export function ProductsPage() {
           hideNextButton
           page={page}
           onChange={handleChangePage}
-          boundaryCount={4}
+          boundaryCount={3}
+          siblingCount={3}
         />
         <FormControl sx={{ m: 1, minWidth: 120 }} variant="standard">
           <InputLabel id="sort_by_select-label">Сортировка по</InputLabel>
@@ -73,7 +73,6 @@ export function ProductsPage() {
           </Select>
         </FormControl>
       </Stack>
-
     </Box>
 
   );
