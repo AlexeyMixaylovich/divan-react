@@ -5,15 +5,17 @@ import {
 
 import { useProducts } from '../hooks/products';
 import { Product } from '../components/Products';
-import { categories } from '../data/categories';
 import { ESortByProduct } from '../constants';
 
 export function ProductsPage() {
   const {
-    products, productsPageCount, page, tabIndex, sortBy,
+    products, categories, productsPageCount, page, tabIndex, sortBy,
     handleChangePage, handleChangeTabIndex, handleChangeSortBy,
   } = useProducts();
-
+  console.log({
+    categories,
+    products,
+  });
   return (
     <Box>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -23,7 +25,7 @@ export function ProductsPage() {
           variant="scrollable"
           scrollButtons
         >
-          {categories.map((category) => <Tab label={category.name} key={category.code} />)}
+          {(categories || []).map((category) => <Tab label={category.name} key={category.code} />)}
         </Tabs>
       </Box>
 

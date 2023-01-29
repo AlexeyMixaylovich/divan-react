@@ -1,22 +1,27 @@
 import _ from 'lodash';
 import { useEffect, useState } from 'react';
 import * as React from 'react';
+import axios from 'axios';
 
 import { SelectChangeEvent } from '@mui/material';
 import { products as dbProducts } from '../data/products';
 
 import { IProduct, ICategory } from '../models';
-import { categories } from '../data/categories';
-import { ESortByProduct } from '../constants';
+
+import { ESortByProduct, PRODUCTS_DOMAIN } from '../constants';
 
 type TGetProductsData = {
   skip: number,
   limit: number,
   sortBy: ESortByProduct,
-  category: ICategory
+  // category: ICategory
 };
+
+interface ICatRes {
+  items: ICategory[]
+}
 function getProducts({ skip, limit, sortBy }: TGetProductsData) {
-  let products = _.sortBy(dbProducts, [sortBy]);// .slice(skip, limit);
+  let products = _.sortBy(dbProducts, [sortBy]);
   if ([ESortByProduct.DATE].includes(sortBy)) {
     products = products.reverse();
   }
@@ -29,6 +34,8 @@ function getProducts({ skip, limit, sortBy }: TGetProductsData) {
 
 export function useProducts() {
   const [products, setProducts] = useState<IProduct[]>([]);
+  const [categories, setCategories] = useState<ICategory[]>([]);
+
   const [page, setPage] = useState<number>(1);
   const [productsPageCount, setProductsPageCount] = useState<number>(0);
   const [tabIndex, setTabIndex] = useState<number>(0);
@@ -37,19 +44,22 @@ export function useProducts() {
   async function fetchProducts(options?: { newPage?: number, sortBy?: ESortByProduct }) {
     const skip = ((options?.newPage || page) - 1) * 12;
     const limit = skip + 12;
-    const category = categories[tabIndex];
-    console.log({
-      page: options?.newPage || page,
-      sortBy: options?.sortBy || sortBy,
-    });
+    // const category = categories[tabIndex];
     const res = getProducts({
       skip,
       limit,
       sortBy: options?.sortBy || sortBy,
-      category,
+      // category,
     });
     setProducts(res.products);
     setProductsPageCount(Math.ceil(res.total / 12));
+  }
+  async function fetchCategories() {
+    const { data } = await axios.get<ICatRes>(
+      `${PRODUCTS_DOMAIN}/product/categories`,
+      { headers: { 'Access-Control-Allow-Origin': '*' } },
+    );
+    setCategories(data.items);
   }
   const handleChangeSortBy = (event: SelectChangeEvent) => {
     const newSortBy = event.target.value as ESortByProduct;
@@ -67,11 +77,13 @@ export function useProducts() {
   }
 
   useEffect(() => {
+    fetchCategories();
     fetchProducts();
   }, []);
 
   return {
     products,
+    categories,
     productsPageCount,
     page,
     tabIndex,

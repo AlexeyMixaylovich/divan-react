@@ -5,3 +5,5 @@ export enum ESortByProduct {
   PRICE = 'price',
   DATE = 'date',
 }
+
+export const PRODUCTS_DOMAIN = 'http://localhost:9000';
