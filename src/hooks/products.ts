@@ -1,37 +1,38 @@
-import _ from 'lodash';
 import { useEffect, useState } from 'react';
 import * as React from 'react';
 import axios from 'axios';
 
 import { SelectChangeEvent } from '@mui/material';
-import { products as dbProducts } from '../data/products';
 
+import { isNumber } from 'lodash';
 import { IProduct, ICategory } from '../models';
 
 import { ESortByProduct, PRODUCTS_DOMAIN } from '../constants';
 
-type TGetProductsData = {
-  skip: number,
-  limit: number,
-  sortBy: ESortByProduct,
-  // category: ICategory
+type TGetProductsBody = {
+  navigate: {
+    skip: number;
+    limit: number;
+  };
+  filters?: {
+    category?: string;
+  };
+  sort?: {
+    field: ESortByProduct;
+    direction: 'asc' | 'desc';
+  }[];
 };
 
 interface ICatRes {
-  items: ICategory[]
-}
-function getProducts({ skip, limit, sortBy }: TGetProductsData) {
-  let products = _.sortBy(dbProducts, [sortBy]);
-  if ([ESortByProduct.DATE].includes(sortBy)) {
-    products = products.reverse();
-  }
-  const total = products.length;
-  return {
-    products: products.slice(skip, limit),
-    total,
-  };
+  items: ICategory[],
 }
 
+interface IProductRes {
+  items: IProduct[],
+  total: number
+
+}
+const lPage = 12;
 export function useProducts() {
   const [products, setProducts] = useState<IProduct[]>([]);
   const [categories, setCategories] = useState<ICategory[]>([]);
@@ -39,26 +40,44 @@ export function useProducts() {
   const [page, setPage] = useState<number>(1);
   const [productsPageCount, setProductsPageCount] = useState<number>(0);
   const [tabIndex, setTabIndex] = useState<number>(0);
-  const [sortBy, setSortBy] = useState<ESortByProduct>(ESortByProduct.DATE);
+  const [sortBy, setSortBy] = useState<ESortByProduct>(ESortByProduct.UPDATED_AT);
 
-  async function fetchProducts(options?: { newPage?: number, sortBy?: ESortByProduct }) {
-    const skip = ((options?.newPage || page) - 1) * 12;
-    const limit = skip + 12;
-    // const category = categories[tabIndex];
-    const res = getProducts({
-      skip,
-      limit,
-      sortBy: options?.sortBy || sortBy,
-      // category,
-    });
-    setProducts(res.products);
-    setProductsPageCount(Math.ceil(res.total / 12));
+  async function fetchProducts(options?: {
+    newPage?: number,
+    sortBy?: ESortByProduct,
+    tabIndex?: number
+  }) {
+    const skip = ((options?.newPage || page) - 1) * lPage;
+    const limit = skip + lPage;
+    const sortField = options?.sortBy || sortBy;
+    const sortDirection = sortField === ESortByProduct.UPDATED_AT ? 'desc' : 'asc';
+
+    const newTabIndex = isNumber(options?.tabIndex)
+      ? options?.tabIndex as number
+      : tabIndex;
+
+    const category = categories[newTabIndex];
+    const url = `${PRODUCTS_DOMAIN}/product/list`;
+    const body: TGetProductsBody = {
+      navigate: { skip, limit },
+      sort: [{
+        field: sortField,
+        direction: sortDirection,
+      }],
+      filters: {
+        category: category.code || undefined,
+      },
+
+    };
+
+    const { data: { items, total } } = await axios.post<IProductRes>(url, body);
+
+    setProducts(items);
+    setProductsPageCount(Math.ceil(total / lPage));
   }
   async function fetchCategories() {
-    const { data } = await axios.get<ICatRes>(
-      `${PRODUCTS_DOMAIN}/product/categories`,
-      { headers: { 'Access-Control-Allow-Origin': '*' } },
-    );
+    const url = `${PRODUCTS_DOMAIN}/product/categories`;
+    const { data } = await axios.get<ICatRes>(url);
     setCategories(data.items);
   }
   const handleChangeSortBy = (event: SelectChangeEvent) => {
@@ -68,7 +87,9 @@ export function useProducts() {
   };
   const handleChangeTabIndex = (event: React.SyntheticEvent, newValue: number) => {
     setTabIndex(newValue);
-    fetchProducts();
+    setPage(1);
+
+    fetchProducts({ tabIndex: newValue, newPage: 1 });
   };
 
   function handleChangePage(event: React.ChangeEvent<unknown>, value: number) {

@@ -12,10 +12,7 @@ export function ProductsPage() {
     products, categories, productsPageCount, page, tabIndex, sortBy,
     handleChangePage, handleChangeTabIndex, handleChangeSortBy,
   } = useProducts();
-  console.log({
-    categories,
-    products,
-  });
+
   return (
     <Box>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -69,9 +66,9 @@ export function ProductsPage() {
             autoWidth
             label="SortBy"
           >
+            <MenuItem value={ESortByProduct.UPDATED_AT}>Дате</MenuItem>
             <MenuItem value={ESortByProduct.NAME}>Имени</MenuItem>
             <MenuItem value={ESortByProduct.PRICE}>Цене</MenuItem>
-            <MenuItem value={ESortByProduct.DATE}>Дате</MenuItem>
           </Select>
         </FormControl>
       </Stack>

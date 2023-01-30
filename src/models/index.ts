@@ -1,11 +1,12 @@
 export interface IProduct {
   name: string;
-  sale?: string;
   url: string;
   atr: string;
   price: number;
   oldPrice: number;
-  date: Date;
+  createdAt: string;
+  updatedAt:string
+  imageUlr?: string;
 }
 
 export interface ICategory {

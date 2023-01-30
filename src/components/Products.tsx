@@ -9,15 +9,14 @@ import { IProduct } from '../models';
 interface ProductProps {
   product: IProduct
 }
-const imgUrl = 'https://cdn2.divan.ru/img/v1/1Eg3BhZukgeAq4iyU0SVldAwNIoSBU5aAiBhnRQSCRk/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxNzQyMzYucG5n.jpg';
 export function Product({ product }: ProductProps) {
   return (
     <Card variant="outlined" sx={{ maxWidth: 300, border: '0' }}>
-      <CardActionArea href={product.url}>
+      <CardActionArea href={product.url} target="_blank">
         <CardMedia
-          sx={{ height: 140 }}
-          image={imgUrl}
-          title="green iguana"
+          sx={{ height: 200 }}
+          image={product.imageUlr}
+          title={product.name}
         />
         <CardContent>
           <Typography gutterBottom variant="subtitle2" component="div">
@@ -32,7 +31,7 @@ export function Product({ product }: ProductProps) {
             <span style={{ textDecoration: 'line-through' }}>{`${product.oldPrice} ${RUB}`}</span>
           </Typography>
           <Typography variant="subtitle2" color="text.secondary">
-            {`Добавлен ${formateDate(product.date)}`}
+            {`Добавлен ${formateDate(product.updatedAt)}`}
           </Typography>
         </CardContent>
       </CardActionArea>
