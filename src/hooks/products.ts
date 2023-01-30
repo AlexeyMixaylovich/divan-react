@@ -47,8 +47,6 @@ export function useProducts() {
     sortBy?: ESortByProduct,
     tabIndex?: number
   }) {
-    const skip = ((options?.newPage || page) - 1) * lPage;
-    const limit = skip + lPage;
     const sortField = options?.sortBy || sortBy;
     const sortDirection = sortField === ESortByProduct.UPDATED_AT ? 'desc' : 'asc';
 
@@ -59,13 +57,16 @@ export function useProducts() {
     const category = categories[newTabIndex];
     const url = `${PRODUCTS_DOMAIN}/product/list`;
     const body: TGetProductsBody = {
-      navigate: { skip, limit },
+      navigate: {
+        skip: ((options?.newPage || page) - 1) * lPage,
+        limit: lPage,
+      },
       sort: [{
         field: sortField,
         direction: sortDirection,
       }],
       filters: {
-        category: category.code || undefined,
+        category: category?.code || undefined,
       },
 
     };
