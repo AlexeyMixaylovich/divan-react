@@ -1,10 +1,11 @@
 import { Container } from '@mui/material';
-import { ProductsPage } from './pages/ProductsPage';
+
+import { Router } from './components/Router';
 
 function App() {
   return (
     <Container fixed>
-      <ProductsPage />
+      <Router />
     </Container>
 
   );
