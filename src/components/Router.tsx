@@ -1,20 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { ExperimentConfigsPage } from '../pages/ExperimentConfigsPage';
-import { ExperimentDetail } from './Experiments/ExperementDetail';
+import { ChatUI } from '../pages/ChatPage';
 
 export function Router() {
   return (
     <BrowserRouter>
       <Routes>
         <Route
-          element={<ExperimentConfigsPage />}
-          path="/experiments"
+          element={<ChatUI />}
+          path="/"
         />
-        <Route
-          element={<ExperimentDetail />}
-          path="/experiments/:id"
-        />
+
         <Route
           element={<div>NotFound</div>}
           path="*"
