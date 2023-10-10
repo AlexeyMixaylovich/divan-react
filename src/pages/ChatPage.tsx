@@ -102,7 +102,9 @@ export function ChatUI() {
         message: prefix + input,
         externalId: new Date().toISOString(),
       };
-      socket.emit('in_message', data);
+      socket.emit('in_message', data, (...args:any[]) => {
+        console.log('in_message_res', args);
+      });
       setInput('');
     }
   };
@@ -110,10 +112,21 @@ export function ChatUI() {
   const handleInputChange = (event: any) => {
     setInput(event.target.value);
   };
+  function handleFileUpload(event:any) {
+    const file = event.target.files[0];
+    const data = {
+      type: 'bla bla',
+      file,
+    };
+    socket.emit('upload', data, (...args:any[]) => {
+      console.log('status', args);
+    });
+  }
 
   useEffect(() => {
-    function onSyncEvent({ newItems, items, newItemsCount }: TSyncData) {
-      console.log({ newItems, items, newItemsCount });
+    function onSyncEvent(data: TSyncData) {
+      console.log('onSyncEvent', data);
+      const { newItems, items } = data;
 
       setMessages((previous) => {
         const { newPrev, newIncoming } = mergeMessages(previous, newItems);
@@ -122,17 +135,19 @@ export function ChatUI() {
         return [...res.newIncoming, ...res.newPrev, ...newIncoming];
       });
     }
-    function onOutMessageEvent({ item }: TInMessageData) {
-      console.log({ item });
-
+    function onOutMessageEvent(data: TInMessageData) {
+      console.log('onOutMessageEvent', data);
+      const { item } = data;
       setMessages((previous) => {
         const res = mergeMessages(previous, [item]);
 
         return [...res.newPrev, ...res.newIncoming];
       });
     }
-    function onPagination({ items, direction }: TPaginationData) {
-      console.log({ items, direction });
+    function onPagination(data: TPaginationData) {
+      console.log('onPagination', data);
+
+      const { items, direction } = data;
 
       setMessages((previous) => {
         const res = mergeMessages(previous, items);
@@ -193,6 +208,17 @@ export function ChatUI() {
               onClick={() => handleSend('employee')}
             >
               Employee
+            </Button>
+            <Button
+              variant="contained"
+              component="label"
+            >
+              Upload File
+              <input
+                type="file"
+                hidden
+                onChange={handleFileUpload}
+              />
             </Button>
           </Grid>
         </Grid>
