@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 const URL = 'http://localhost:9000';
 
 export const socket = io(URL, {
-  autoConnect: false,
+  // autoConnect: false,
   extraHeaders: {
     authorization: 'stage-user-token_1026333',
     limit: '2',

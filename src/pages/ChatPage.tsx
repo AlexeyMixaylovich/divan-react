@@ -9,7 +9,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import { useEffect, useState } from 'react';
 import { socket } from '../socket';
-import { ConnectionManager } from '../components/ConnectionManager';
+// import { ConnectionManager } from '../components/ConnectionManager';
 import { formateDate } from '../helpers/date';
 
 export type TMessage = {
@@ -156,7 +156,7 @@ export function ChatUI() {
   return (
 
     <Box sx={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <ConnectionManager />
+      {/* <ConnectionManager /> */}
 
       <Box sx={{ flexGrow: 1, overflow: 'auto', p: 1 }}>
         {messages.map((message) => (
